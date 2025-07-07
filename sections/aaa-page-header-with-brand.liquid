@@ -1,0 +1,84 @@
+<section class="kb-custom-section kb-gbl kb-page-header">
+  <figure class="kb-img-bg">
+
+    <!-- BG IMAGE -->
+    {% if section.settings.image_bg != blank %}
+      {% liquid 
+        assign alt = shop.name | escape
+        if section.settings.image_bg.alt != blank
+          assign alt = section.settings.image_bg.alt | escape
+        endif
+      %}
+      {% render 'responsive-image' with section.settings.image_bg, loading: 'eager', alt: alt %}
+    {% else %}
+      {{ 'image' | placeholder_svg_tag: 'icon icon--placeholder' }}
+    {% endif %}
+
+    <!-- BG VIDEO -->
+    {% if section.settings.video != blank %}
+      {% render 'native-video' with video: section.settings.video, autoplay: true, loop: true, muted: true, overlay: false, controls: false %}
+    {% endif %}
+
+  </figure>
+  <main class="kb-page-header-main">
+    {% if section.settings.image_brand != blank %}
+      <figure class="kb-page-header-brand">
+        {{ section.settings.image_brand | image_url: width: 240 | image_tag }}
+      </figure>
+    {% endif %}
+    <h1>{{section.settings.title}}</h1>
+    {% if section.settings.subtitle != blank %}
+      <p class="kb-page-header-sub">
+        {{ section.settings.subtitle }}
+      </p>
+    {% endif %}
+  </main>
+</section>
+
+{% schema %}
+{
+  "name": "KB Page Header w/ Brand",
+  "tag": "section",
+  "class": "section--image-with-text-overlay",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Banner Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_brand",
+      "label": "Brand Logo"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "H1 Title",
+      "default": "Page Title Goes Here"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Optional Strapline goes here"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_bg",
+      "label": "Image"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    }
+  ],
+  "blocks": [
+  ],
+  "presets": [
+    {
+      "name":"KB Page Header w/ Brand"
+    }
+  ]
+}
+{% endschema %}
