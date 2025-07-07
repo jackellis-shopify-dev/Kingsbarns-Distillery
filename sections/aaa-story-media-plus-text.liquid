@@ -1,0 +1,112 @@
+<section class="kb-custom-section kb-gbl kb-story-media">
+  <div class="kb-gbl-inner kb-align-{{ section.settings.layout}} kb-scheme-{{ section.settings.scheme}}">
+    <div class="kb-story-media-inner">
+      <figure class="kb-story-media-media">
+      <figure class="kb-img-bg">
+        <!-- MEDIA IMAGE -->
+        {% if section.settings.image != blank %}
+          {% liquid 
+            assign alt = shop.name | escape
+            if section.settings.image.alt != blank
+              assign alt = section.settings.image.alt | escape
+            endif
+          %}
+          {% render 'responsive-image' with section.settings.image, loading: 'eager', alt: alt %}
+        {% else %}
+          {{ 'image' | placeholder_svg_tag: 'icon icon--placeholder' }}
+        {% endif %}
+
+        <!-- BG VIDEO -->
+        {% if section.settings.video != blank %}
+          {% render 'native-video' with video: section.settings.video, autoplay: true, loop: true, muted: true, overlay: false, controls: false %}
+        {% endif %}
+      </figure>
+    </figure>
+    <main class="kb-story-media-main">
+      <div class="main-inner">
+        {% if section.settings.title != blank %}
+          <h2 class="kb-story-subheading">
+             {{ section.settings.title }}
+          </h2>
+        {% endif %}
+        {{ section.settings.main_content }}
+      </div>
+    </main>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "KB Story Media + Text",
+  "tag": "section",
+  "class": "section--story-media-plus-text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Block Detail"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Select Alignment",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Media on Left"
+        },
+        {
+          "value": "right",
+          "label": "Media on Right"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Block Title",
+      "default": "Title Goes Here"
+    },
+    {
+      "type": "richtext",
+      "id": "main_content",
+      "label": "Content",
+      "default": "<p>Block story goes here</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "Colour Scheme",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "No Background"
+        },
+        {
+          "value": "light",
+          "label": "Light Background"
+        }
+      ]
+    },
+  ],
+  "blocks": [
+  ],
+  "presets": [
+    {
+      "name":"KB Story Media + Text"
+    }
+  ]
+}
+{% endschema %}
