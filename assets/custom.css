@@ -573,3 +573,9 @@ body .color-scheme--light.product-section .shopify-payment-button__button--unbra
 /*.quick-add-wrapper {
   display: none !important;
 }*/
+
+/* HIDE PERSONALISER */
+
+.product-personalizer:has(.pplr_no_preview) {
+    display: none;
+}
