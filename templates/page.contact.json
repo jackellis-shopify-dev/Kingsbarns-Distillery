@@ -56,7 +56,9 @@
         "fbb2a872-0770-4f56-913c-b7853e33a9c0",
         "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".btn.dynamic-section-button--template--25931934335323__057a50d5-3fee-4ea2-a832-2d38f47b959 {background-color: #ffffff; /* white background */ color: #000000;"
+      ],
       "settings": {
         "form_width": "narrow",
         "title": "Contact us",
@@ -64,7 +66,7 @@
         "section_padding_top": 60,
         "section_padding_bottom": 60,
         "section_color_scheme": "light",
-        "override_button_colors": false,
+        "override_button_colors": true,
         "button_background_color": "#dc3545",
         "button_text_color": "#333333"
       }
