@@ -1,1 +1,314 @@
-{"sections":{"main":{"type":"template--page","disabled":true,"settings":{"page_title_enabled":false,"page_width":"content"}},"video_hero_itCxe4":{"type":"video-hero","settings":{"video":"shopify:\/\/files\/videos\/KBtothesea_s.mp4","url":"","video_alt_text":"","title":"Visit Kingsbarns Distillery & Darnley's Gin Cottage","subheading":"","textAlignment":"center","textShadow":false,"heading--text-size":50,"subheading--text-size":24,"link":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button-background":"#e68819","button-text":"#ffffff","section_margin_top":0,"section_margin_bottom":0,"desktopHeight":"650","mobileHeight":"fullscreen","textColor":"#ffffff"}},"gallery_wPhNqf":{"type":"gallery","blocks":{"image_CGxP3B":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/distillery_exterior_1080_x_1080.png","link":"","subheading":"Our distillery provides an exclusive glimpse into the creation of our award-winning single malts. From the milling of barley to the enchantment of maturation, you’ll follow every step of the journey.","title":"Kingsbarns Distillery","overlay-btn-text":"","show-gradient-overlay":true,"overlay_font_color":"#ffffff","overlay_color":"#242424","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff"}},"image_H94UyN":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/darnleys_gin_cottage_1080_x_1080.png","link":"","subheading":"Brimming with aromatic botanicals like juniper, elderflower, and coriander, this peaceful garden is the heart of inspiration for every bottle of Darnley’s Gin. Visitors are invited to wander through, discovering how each plant shapes the bold and intricate flavours that make our gin unique.","title":"Darnley's Gin Cottage Garden","overlay-btn-text":"","show-gradient-overlay":true,"overlay_font_color":"#ffffff","overlay_color":"#242424","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff"}}},"block_order":["image_CGxP3B","image_H94UyN"],"disabled":true,"settings":{"title":"","description":"","grid_image_size":"natural","content-position":"below-image","buttons_style":"filled","section_padding_top":60,"section_padding_bottom":60,"section-width":"content","remove-spacing":false,"full-width":false,"colors":"white"}},"rich_text_yrqgnJ":{"type":"rich-text","blocks":{"heading_DEgbhB":{"type":"heading","settings":{"heading":"Discover Our 5-Star Visitor Experiences","heading--text-size":30,"heading_bottom_spacing":20}},"richtext_RFdrxh":{"type":"richtext","settings":{"text":"<p>Explore Kingsbarns Distillery, where tradition and craftsmanship come together in the heart of Fife. Rated 5 stars on TripAdvisor, our visitor experience includes guided tours, tastings, and a behind-the-scenes look at how we create our handcrafted spirits. Whether you’re a whisky enthusiast or simply curious, Kingsbarns offers a fascinating insight into Scotland’s whisky-making heritage.<\/p><p>Located near St Andrews, in the scenic East Neuk of Fife, our distillery is set in a restored 18th-century farm steading. Visitors can enjoy whisky tours, tastings, a shop, and a café with outdoor seating.<br\/><br\/>For gin lovers, a visit to Darnley’s Gin Cottage is a must. Located onsite, it offers an intimate look into the creation of our award-winning gins, complete with gin tastings and experiences.  <br\/><br\/>We strongly recommend booking your tour online in advance to secure your preferred time. However, we’re happy to accommodate unscheduled visits whenever possible, subject to availability. For any inquiries, feel free to contact us at info@kingsbarnsdistillery.com.  <br\/><\/p><h3>Opening Hours<\/h3><h5><\/h5><p>Our Visitor Centre is open daily from 9.30am with tours running throughout the day. The café closes at 4.30pm and the shop closes at 5pm.<\/p><p><\/p><p><\/p>","text_size":14,"text_bottom_spacing":20}}},"block_order":["heading_DEgbhB","richtext_RFdrxh"],"settings":{"section_width":"narrow","text_alignment_desktop":"center","text_alignment_mobile":"center","section_padding_top":60,"section_padding_bottom":60,"colors":"white"}},"gallery_eNPq9e":{"type":"gallery","blocks":{"image_E4h94D":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design.png","link":"shopify:\/\/pages\/whisky-tours","subheading":"TOURS","title":"WHISKY","overlay-btn-text":"Browse now","show-gradient-overlay":false,"overlay_font_color":"#FFFFFF","overlay_color":"#242424","override_button_colors":false,"button_background_color":"#E68819","button_text_color":"#FFFFFF"}},"image_diBaMY":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_1.png","link":"shopify:\/\/pages\/gin-tour","subheading":"TOURS","title":"GIN","overlay-btn-text":"Browse Now","show-gradient-overlay":false,"overlay_font_color":"#FFFFFF","overlay_color":"#242424","override_button_colors":false,"button_background_color":"#E68819","button_text_color":"#FFFFFF"}}},"block_order":["image_E4h94D","image_diBaMY"],"settings":{"title":"Our Tours","description":"<p>Explore our range of immersive experiences across Kingsbarns Distillery, Darnley’s Gin Cottage, and the Wemyss Blending Experience. From whisky and gin tastings to hands-on blending sessions, browse our tours and find the perfect way to discover the craft behind our spirits.<\/p>","grid_image_size":"natural","content-position":"overlay","buttons_style":"filled","section_padding_top":60,"section_padding_bottom":60,"section-width":"content","remove-spacing":false,"full-width":false,"colors":"white"}},"logo_list_m3qyYj":{"type":"logo-list","blocks":{"logo_image_zwghL9":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/Tripadvisor_Logo_circle-green_CMYK_98352ed9-035e-4036-9b27-c0fff49ef884.png","link":""}},"logo_image_bUJkW8":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/5_star_visitor_attraction_logo__2.png","link":""}},"logo_image_cAkrER":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/The_Hive_2023.png","link":""}},"logo_image_EcLjjc":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/WWhiskiesA24-Gold_6ccde8a9-9d78-43f6-b6bb-d733c55cb536.png","link":""}},"logo_image_KBfk7t":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/AROMATA_-_Gold_Medal_-_Spirits_Business_Gin_Masters_2022.png","link":""}},"logo_image_HAiGzk":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/IWSC_silver91_-_Balcomie.png","link":""}}},"block_order":["logo_image_zwghL9","logo_image_bUJkW8","logo_image_cAkrER","logo_image_EcLjjc","logo_image_KBfk7t","logo_image_HAiGzk"],"settings":{"width":150,"title":"Award-Winning Spirits","description":"<p>We’re proud that our brands have collectively earned over 200 awards for their exceptional spirits.<\/p>","section_padding_top":60,"section_padding_bottom":60,"colors":"light"}}},"order":["main","video_hero_itCxe4","gallery_wPhNqf","rich_text_yrqgnJ","gallery_eNPq9e","logo_list_m3qyYj"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "content"
+      }
+    },
+    "video_hero_itCxe4": {
+      "type": "video-hero",
+      "settings": {
+        "video": "shopify://files/videos/KBtothesea_s.mp4",
+        "url": "",
+        "video_alt_text": "",
+        "title": "Visit Kingsbarns Distillery & Darnley's Gin Cottage",
+        "subheading": "",
+        "textAlignment": "center",
+        "textShadow": false,
+        "heading--text-size": 50,
+        "subheading--text-size": 24,
+        "link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button-background": "#e68819",
+        "button-text": "#ffffff",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "desktopHeight": "650",
+        "mobileHeight": "fullscreen",
+        "textColor": "#ffffff"
+      }
+    },
+    "gallery_wPhNqf": {
+      "type": "gallery",
+      "blocks": {
+        "image_CGxP3B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/distillery_exterior_1080_x_1080.png",
+            "link": "",
+            "subheading": "Our distillery provides an exclusive glimpse into the creation of our award-winning single malts. From the milling of barley to the enchantment of maturation, you’ll follow every step of the journey.",
+            "title": "Kingsbarns Distillery",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_H94UyN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/darnleys_gin_cottage_1080_x_1080.png",
+            "link": "",
+            "subheading": "Brimming with aromatic botanicals like juniper, elderflower, and coriander, this peaceful garden is the heart of inspiration for every bottle of Darnley’s Gin. Visitors are invited to wander through, discovering how each plant shapes the bold and intricate flavours that make our gin unique.",
+            "title": "Darnley's Gin Cottage Garden",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_CGxP3B",
+        "image_H94UyN"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_image_size": "natural",
+        "content-position": "below-image",
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "section-width": "content",
+        "remove-spacing": false,
+        "full-width": false,
+        "colors": "white"
+      }
+    },
+    "rich_text_yrqgnJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DEgbhB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover Our 5-Star Visitor Experiences",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_RFdrxh": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Explore Kingsbarns Distillery, where tradition and craftsmanship come together in the heart of Fife. Rated 5 stars on TripAdvisor, our visitor experience includes guided tours, tastings, and a behind-the-scenes look at how we create our handcrafted spirits. Whether you’re a whisky enthusiast or simply curious, Kingsbarns offers a fascinating insight into Scotland’s whisky-making heritage.</p><p>Located near St Andrews, in the scenic East Neuk of Fife, our distillery is set in a restored 18th-century farm steading. Visitors can enjoy whisky tours, tastings, a shop, and a café with outdoor seating.<br/><br/>For gin lovers, a visit to Darnley’s Gin Cottage is a must. Located onsite, it offers an intimate look into the creation of our award-winning gins, complete with gin tastings and experiences.  <br/><br/>We strongly recommend booking your tour online in advance to secure your preferred time. However, we’re happy to accommodate unscheduled visits whenever possible, subject to availability. For any inquiries, feel free to contact us at info@kingsbarnsdistillery.com.  <br/></p><h3>Opening Hours</h3><h5></h5><p>Our Visitor Centre is open daily from 9.30am with tours running throughout the day. The café closes at 4.30pm and the shop closes at 5pm.</p><p></p><p></p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_DEgbhB",
+        "richtext_RFdrxh"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "gallery_eNPq9e": {
+      "type": "gallery",
+      "blocks": {
+        "image_E4h94D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design.png",
+            "link": "shopify://pages/whisky-tours",
+            "subheading": "TOURS",
+            "title": "WHISKY",
+            "overlay-btn-text": "Browse now",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_diBaMY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png",
+            "link": "shopify://pages/gin-tour",
+            "subheading": "TOURS",
+            "title": "GIN",
+            "overlay-btn-text": "Browse Now",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_E4h94D",
+        "image_diBaMY"
+      ],
+      "settings": {
+        "title": "Our Tours",
+        "description": "<p>Explore our range of immersive experiences across Kingsbarns Distillery, Darnley’s Gin Cottage, and the Wemyss Blending Experience. From whisky and gin tastings to hands-on blending sessions, browse our tours and find the perfect way to discover the craft behind our spirits.</p>",
+        "grid_image_size": "natural",
+        "content-position": "overlay",
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "section-width": "content",
+        "remove-spacing": false,
+        "full-width": false,
+        "colors": "white"
+      }
+    },
+    "logo_list_m3qyYj": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_zwghL9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK_98352ed9-035e-4036-9b27-c0fff49ef884.png",
+            "link": ""
+          }
+        },
+        "logo_image_bUJkW8": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/5_star_visitor_attraction_logo__2.png",
+            "link": ""
+          }
+        },
+        "logo_image_cAkrER": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/The_Hive_2023.png",
+            "link": ""
+          }
+        },
+        "logo_image_EcLjjc": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/WWhiskiesA24-Gold_6ccde8a9-9d78-43f6-b6bb-d733c55cb536.png",
+            "link": ""
+          }
+        },
+        "logo_image_KBfk7t": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/AROMATA_-_Gold_Medal_-_Spirits_Business_Gin_Masters_2022.png",
+            "link": ""
+          }
+        },
+        "logo_image_HAiGzk": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/IWSC_silver91_-_Balcomie.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_zwghL9",
+        "logo_image_bUJkW8",
+        "logo_image_cAkrER",
+        "logo_image_EcLjjc",
+        "logo_image_KBfk7t",
+        "logo_image_HAiGzk"
+      ],
+      "settings": {
+        "width": 150,
+        "title": "Award-Winning Spirits",
+        "description": "<p>We’re proud that our brands have collectively earned over 200 awards for their exceptional spirits.</p>",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "light"
+      }
+    },
+    "testimonials_cyBfAj": {
+            "type": "testimonials",
+            "blocks": {
+                "text_mDF44H": {
+                    "type": "text",
+                    "settings": {
+                        "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
+                        "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r980417937-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"target=\"_blank\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r980417937-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>What a great experience!!</strong></a><strong><br/></strong><br/>\"Very nice place in the middle of the country side.<br/>The guide was nice, competent and friendly open to all our questions and doubts!<br/>We explored a bit of history linked to the distillery and then how the whisky is made.<br/>It's also a good experience for your sense of smell!<br/>The final step was a taste of three different whisky tastings!\"</p>",
+                        "customer_name": "Isma M",
+                        "link": "",
+                        "stars": 5
+                    }
+                },
+                "text_E6FkUB": {
+                    "type": "text",
+                    "settings": {
+                        "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
+                        "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d13506326-r979214695-Darnley_s_Gin-Kingsbarns_St_Andrews_Fife_Scotland.html\"target=\"_blank\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d13506326-r979214695-Darnley_s_Gin-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>Relaxed and tasty!</strong></a><strong><br/><br/></strong>\"We had a lovely afternoon at the distillery. Lunch in cafe was tasty and then our gin tour was interesting and fun. We had Gordon as our guide who was funny and informative . A lovely relaxed atmosphere and very tasty gin . Highly recommend.\"</p>",
+                        "customer_name": "Maxine S",
+                        "link": "",
+                        "stars": 5
+                    }
+                },
+                "text_aendqD": {
+                    "type": "text",
+                    "settings": {
+                        "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
+                        "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r976612891-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r976612891-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>Wonderful Visitor Experience</strong></a><strong><br/><br/></strong>\"We booked on the whisky distillery tour and had a friendly welcome when we arrived. The tour was carried out in an informative and very professional way, and not too technical. The tasting experience was well handled and the different expressions of Kingsbarns products were well enjoyed. Thoroughly recommend this experience.\"</p>",
+                        "customer_name": "William B",
+                        "link": "",
+                        "stars": 5
+                    }
+                }
+            },
+            "block_order": [
+                "text_mDF44H",
+                "text_E6FkUB",
+                "text_aendqD"
+            ],
+            "settings": {
+                "circle_images": false,
+                "title": "Trip Advisor Distillery Reviews",
+                "description": "",
+                "section_padding_top": 60,
+                "section_padding_bottom": 60,
+                "colors": "white",
+                "testimonials-image-button-label": "VISIT TRIPADVISOR",
+                "testimonials-image-button-link": "https://www.tripadvisor.co.uk/Attraction_Review-g1967205-d7291995-Reviews-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html",
+                "buttons_style": "filled",
+                "override_button_colors": false,
+                "button_background_color": "#e68819",
+                "button_text_color": "#000000"
+            }
+        }
+  },
+  "order": [
+    "main",
+    "video_hero_itCxe4",
+    "gallery_wPhNqf",
+    "rich_text_yrqgnJ",
+    "gallery_eNPq9e",
+    "logo_list_m3qyYj",
+    "testimonials_cyBfAj"
+  ]
+}
