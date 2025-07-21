@@ -248,59 +248,59 @@
       }
     },
     "testimonials_cyBfAj": {
-            "type": "testimonials",
-            "blocks": {
-                "text_mDF44H": {
-                    "type": "text",
-                    "settings": {
-                        "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
-                        "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r980417937-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"target=\"_blank\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r980417937-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>What a great experience!!</strong></a><strong><br/></strong><br/>\"Very nice place in the middle of the country side.<br/>The guide was nice, competent and friendly open to all our questions and doubts!<br/>We explored a bit of history linked to the distillery and then how the whisky is made.<br/>It's also a good experience for your sense of smell!<br/>The final step was a taste of three different whisky tastings!\"</p>",
-                        "customer_name": "Isma M",
-                        "link": "",
-                        "stars": 5
-                    }
-                },
-                "text_E6FkUB": {
-                    "type": "text",
-                    "settings": {
-                        "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
-                        "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d13506326-r979214695-Darnley_s_Gin-Kingsbarns_St_Andrews_Fife_Scotland.html\"target=\"_blank\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d13506326-r979214695-Darnley_s_Gin-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>Relaxed and tasty!</strong></a><strong><br/><br/></strong>\"We had a lovely afternoon at the distillery. Lunch in cafe was tasty and then our gin tour was interesting and fun. We had Gordon as our guide who was funny and informative . A lovely relaxed atmosphere and very tasty gin . Highly recommend.\"</p>",
-                        "customer_name": "Maxine S",
-                        "link": "",
-                        "stars": 5
-                    }
-                },
-                "text_aendqD": {
-                    "type": "text",
-                    "settings": {
-                        "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
-                        "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r976612891-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r976612891-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>Wonderful Visitor Experience</strong></a><strong><br/><br/></strong>\"We booked on the whisky distillery tour and had a friendly welcome when we arrived. The tour was carried out in an informative and very professional way, and not too technical. The tasting experience was well handled and the different expressions of Kingsbarns products were well enjoyed. Thoroughly recommend this experience.\"</p>",
-                        "customer_name": "William B",
-                        "link": "",
-                        "stars": 5
-                    }
-                }
-            },
-            "block_order": [
-                "text_mDF44H",
-                "text_E6FkUB",
-                "text_aendqD"
-            ],
-            "settings": {
-                "circle_images": false,
-                "title": "Trip Advisor Distillery Reviews",
-                "description": "",
-                "section_padding_top": 60,
-                "section_padding_bottom": 60,
-                "colors": "white",
-                "testimonials-image-button-label": "VISIT TRIPADVISOR",
-                "testimonials-image-button-link": "https://www.tripadvisor.co.uk/Attraction_Review-g1967205-d7291995-Reviews-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html",
-                "buttons_style": "filled",
-                "override_button_colors": false,
-                "button_background_color": "#e68819",
-                "button_text_color": "#000000"
-            }
+      "type": "testimonials",
+      "blocks": {
+        "text_mDF44H": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
+            "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r980417937-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"target=\"_blank\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r980417937-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>What a great experience!!</strong></a><strong><br/></strong><br/>\"Very nice place in the middle of the country side.<br/>The guide was nice, competent and friendly open to all our questions and doubts!<br/>We explored a bit of history linked to the distillery and then how the whisky is made.<br/>It's also a good experience for your sense of smell!<br/>The final step was a taste of three different whisky tastings!\"</p>",
+            "customer_name": "Isma M",
+            "link": "",
+            "stars": 5
+          }
+        },
+        "text_E6FkUB": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
+            "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d13506326-r979214695-Darnley_s_Gin-Kingsbarns_St_Andrews_Fife_Scotland.html\"target=\"_blank\"title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d13506326-r979214695-Darnley_s_Gin-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>Relaxed and tasty!</strong></a><strong><br/><br/></strong>\"We had a lovely afternoon at the distillery. Lunch in cafe was tasty and then our gin tour was interesting and fun. We had Gordon as our guide who was funny and informative . A lovely relaxed atmosphere and very tasty gin . Highly recommend.\"</p>",
+            "customer_name": "Maxine S",
+            "link": "",
+            "stars": 5
+          }
+        },
+        "text_aendqD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Tripadvisor_Logo_circle-green_CMYK.png",
+            "testimonial_text": "<p><a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r976612891-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\" target=\"_blank\" title=\"https://www.tripadvisor.co.uk/ShowUserReviews-g1967205-d7291995-r976612891-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html\"><strong>Wonderful Visitor Experience</strong></a><strong><br/><br/></strong>\"We booked on the whisky distillery tour and had a friendly welcome when we arrived. The tour was carried out in an informative and very professional way, and not too technical. The tasting experience was well handled and the different expressions of Kingsbarns products were well enjoyed. Thoroughly recommend this experience.\"</p>",
+            "customer_name": "William B",
+            "link": "",
+            "stars": 5
+          }
         }
+      },
+      "block_order": [
+        "text_mDF44H",
+        "text_E6FkUB",
+        "text_aendqD"
+      ],
+      "settings": {
+        "circle_images": false,
+        "title": "Trip Advisor Distillery Reviews",
+        "description": "",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "testimonials-image-button-label": "VISIT TRIPADVISOR",
+        "testimonials-image-button-link": "https://www.tripadvisor.co.uk/Attraction_Review-g1967205-d7291995-Reviews-Kingsbarns_Distillery_and_Visitor_Centre-Kingsbarns_St_Andrews_Fife_Scotland.html",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#000000"
+      }
+    }
   },
   "order": [
     "main",
