@@ -1,1 +1,127 @@
-{"type":"footer","name":"Footer","sections":{"newsletter_ze9XCn":{"type":"newsletter","settings":{"newsletter_heading":"Join our Mailing List","newsletter_description":"<p>Sign up to our newsletter and receive exclusive offers, early access to new products, local events, digital tastings and more.<\/p>","textAlignment":"left","section_padding_top":60,"section_padding_bottom":60,"colors":"white"}},"footer-main":{"type":"footer-main","blocks":{"menu":{"type":"menu","settings":{"menu_title":"Quick Links","footer_linklist":"footer"}},"text_R76MCA":{"type":"text","settings":{"title":"Kingsbarns Distillery","richtext":"<p>Kingsbarns Distillery & Visitor Centre<br\/>East Newhall Farm<br\/>Kingsbarns, St Andrews<br\/>KY16 8QE<\/p><p>info@kingsbarnsdistillery.com<\/p><p>+44 (0) 1333 451300<\/p><p><a href=\"https:\/\/twitter.com\/kingsbarns_dist\" target=\"_blank\" title=\"https:\/\/twitter.com\/kingsbarns_dist\">TW<\/a> <a href=\"https:\/\/www.facebook.com\/kingsbarnsdistillery\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/kingsbarnsdistillery\">FB<\/a> <a href=\"https:\/\/www.instagram.com\/kingsbarnsdistillery\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/kingsbarnsdistillery\/\">INST<\/a> <a href=\"https:\/\/www.youtube.com\/channel\/UCAV3CezdY8eXjo3q80czswQ\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/channel\/UCAV3CezdY8eXjo3q80czswQ\">YT<\/a> <a href=\"https:\/\/www.linkedin.com\/company\/wemyss-family-spirits\/\" target=\"_blank\" title=\"https:\/\/www.linkedin.com\/company\/wemyss-family-spirits\/\">LI<\/a><\/p>"}},"text_3cGz4x":{"type":"text","settings":{"title":"Darnley's Gin","richtext":"<p>Darnley's Gin Cottage<br\/>East Newhall Farm<br\/>Kingsbarns<br\/>KY16 8QE<\/p><p>+44 (0) 1333 451300<br\/><a href=\"mailto:info@darnleysgin.com\" target=\"_blank\" title=\"mailto:info@darnleysgin.com\">info@darnleysgin.com<\/a><\/p><p><a href=\"https:\/\/twitter.com\/darnleysgin\" target=\"_blank\" title=\"https:\/\/twitter.com\/darnleysgin\">TW<\/a> <a href=\"https:\/\/www.facebook.com\/DarnleysGin\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/DarnleysGin\">FB<\/a> <a href=\"https:\/\/www.instagram.com\/darnleysgin\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/darnleysgin\/\">INST<\/a> <a href=\"https:\/\/www.youtube.com\/channel\/UCbT_U704RZ1gH7W-GYNpV7Q\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/channel\/UCbT_U704RZ1gH7W-GYNpV7Q\">YT<\/a><\/p>"}},"text_Mtk6BH":{"type":"text","settings":{"title":"Wemyss Malts","richtext":"<p>+44 (0) 1333 451300<\/p><p>General Enquiries:<br\/><a href=\"mailto:info@wemyssfamilyspirits.com\" title=\"mailto:info@wemyssfamilyspirits.com\">info@wemyssfamilyspirits.com<\/a><\/p><p><a href=\"https:\/\/twitter.com\/wemyssmalts\" target=\"_blank\" title=\"https:\/\/twitter.com\/wemyssmalts\">TW<\/a> <a href=\"https:\/\/www.facebook.com\/WemyssMalts\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/WemyssMalts\/\">FB<\/a> <a href=\"https:\/\/www.instagram.com\/wemyssmalts\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/wemyssmalts\/\">INST<\/a> <a href=\"https:\/\/www.youtube.com\/channel\/UC1ODDeX4XKjZ4x65bWkvLRw\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/channel\/UC1ODDeX4XKjZ4x65bWkvLRw\">YT<\/a> <a href=\"https:\/\/www.linkedin.com\/company\/wemyss-malts\/\" target=\"_blank\" title=\"https:\/\/www.linkedin.com\/company\/wemyss-malts\/\">LI<\/a><\/p>"}},"text_jTYLrF":{"type":"text","settings":{"title":"Trade Enquiries","richtext":"<p>General Enquiries:<br\/><a href=\"mailto:info@wemyssfamilyspirits.com\" title=\"mailto:info@wemyssfamilyspirits.com\">info@wemyssfamilyspirits.com<\/a><\/p><p>Trade Enquiries:<br\/><a href=\"mailto:sales@wemyssfamilyspirits.com\" title=\"mailto:sales@wemyssfamilyspirits.com\">sales@wemyssfamilyspirits.com<\/a> <\/p><p><\/p>"}}},"block_order":["menu","text_R76MCA","text_3cGz4x","text_Mtk6BH","text_jTYLrF"],"settings":{"alignment":"left","heading_font_size":14,"color_scheme":"dark"}},"aaa_doo_separator_Yd3aWj":{"type":"aaa-doo-separator","custom_css":["section {background: #483728; padding-top: 30px; padding-bottom: 61px;}"],"settings":{}},"rich_text_JQjJPH":{"type":"rich-text","blocks":{"richtext_kKfqkU":{"type":"richtext","settings":{"text":"<p>Website by <a href=\"https:\/\/www.radiatordigital.com\/\" target=\"_blank\" title=\"Radiator Digital Website\">Radiator Digital<\/a><\/p>","text_size":14,"text_bottom_spacing":0}}},"block_order":["richtext_kKfqkU"],"settings":{"section_width":"narrow","text_alignment_desktop":"center","text_alignment_mobile":"center","section_padding_top":0,"section_padding_bottom":40,"colors":"dark"}},"footer-bottom":{"type":"footer-bottom","settings":{"show_methods_of_payment":true,"center_content_on_desktop":true,"footer_text":"","show_currency_selector":true,"show_locale_selector":false,"color_scheme":"dark"}}},"order":["newsletter_ze9XCn","footer-main","aaa_doo_separator_Yd3aWj","rich_text_JQjJPH","footer-bottom"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "newsletter_ze9XCn": {
+      "type": "newsletter",
+      "settings": {
+        "newsletter_heading": "Join our Mailing List",
+        "newsletter_description": "<p>Sign up to our newsletter and receive exclusive offers, early access to new products, local events, digital tastings and more.</p>",
+        "textAlignment": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Quick Links",
+            "footer_linklist": "footer"
+          }
+        },
+        "text_R76MCA": {
+          "type": "text",
+          "settings": {
+            "title": "Kingsbarns Distillery",
+            "richtext": "<p>Kingsbarns Distillery & Visitor Centre<br/>East Newhall Farm<br/>Kingsbarns, St Andrews<br/>KY16 8QE</p><p><a href=\"mailto:info@kingsbarnsdistillery.com\" title=\"mailto:info@kingsbarnsdistillery.com\">info@kingsbarnsdistillery.com</a></p><p><a href=\"tel:+44 (0) 1333 451300\" title=\"tel:+44 (0) 1333 451300\">+44 (0) 1333 451300</a></p><p><a href=\"https://twitter.com/kingsbarns_dist\" target=\"_blank\" title=\"https://twitter.com/kingsbarns_dist\">TW</a> <a href=\"https://www.facebook.com/kingsbarnsdistillery\" target=\"_blank\" title=\"https://www.facebook.com/kingsbarnsdistillery\">FB</a> <a href=\"https://www.instagram.com/kingsbarnsdistillery/\" target=\"_blank\" title=\"https://www.instagram.com/kingsbarnsdistillery/\">INST</a> <a href=\"https://www.youtube.com/channel/UCAV3CezdY8eXjo3q80czswQ\" target=\"_blank\" title=\"https://www.youtube.com/channel/UCAV3CezdY8eXjo3q80czswQ\">YT</a> <a href=\"https://www.linkedin.com/company/wemyss-family-spirits/\" target=\"_blank\" title=\"https://www.linkedin.com/company/wemyss-family-spirits/\">LI</a></p>"
+          }
+        },
+        "text_3cGz4x": {
+          "type": "text",
+          "settings": {
+            "title": "Darnley's Gin",
+            "richtext": "<p>Darnley's Gin Cottage<br/>East Newhall Farm<br/>Kingsbarns<br/>KY16 8QE</p><p><a href=\"mailto:info@darnleysgin.com\" target=\"_blank\" title=\"mailto:info@darnleysgin.com\">info@darnleysgin.com<br/><br/></a><a href=\"tel:+44 (0) 1333 451300\" title=\"tel:+44 (0) 1333 451300\">+44 (0) 1333 451300</a></p><p><a href=\"https://twitter.com/darnleysgin\" target=\"_blank\" title=\"https://twitter.com/darnleysgin\">TW</a> <a href=\"https://www.facebook.com/DarnleysGin\" target=\"_blank\" title=\"https://www.facebook.com/DarnleysGin\">FB</a> <a href=\"https://www.instagram.com/darnleysgin/\" target=\"_blank\" title=\"https://www.instagram.com/darnleysgin/\">INST</a> <a href=\"https://www.youtube.com/channel/UCbT_U704RZ1gH7W-GYNpV7Q\" target=\"_blank\" title=\"https://www.youtube.com/channel/UCbT_U704RZ1gH7W-GYNpV7Q\">YT</a></p>"
+          }
+        },
+        "text_Mtk6BH": {
+          "type": "text",
+          "settings": {
+            "title": "Wemyss Malts",
+            "richtext": "<p>General Enquiries:<br/><br/><a href=\"mailto:info@wemyssfamilyspirits.com\" title=\"mailto:info@wemyssfamilyspirits.com\">info@wemyssfamilyspirits.com<br/><br/></a><a href=\"tel:+44 (0) 1333 451300\" title=\"tel:+44 (0) 1333 451300\">+44 (0) 1333 451300</a></p><p><a href=\"https://twitter.com/wemyssmalts\" target=\"_blank\" title=\"https://twitter.com/wemyssmalts\">TW</a> <a href=\"https://www.facebook.com/WemyssMalts/\" target=\"_blank\" title=\"https://www.facebook.com/WemyssMalts/\">FB</a> <a href=\"https://www.instagram.com/wemyssmalts/\" target=\"_blank\" title=\"https://www.instagram.com/wemyssmalts/\">INST</a> <a href=\"https://www.youtube.com/channel/UC1ODDeX4XKjZ4x65bWkvLRw\" target=\"_blank\" title=\"https://www.youtube.com/channel/UC1ODDeX4XKjZ4x65bWkvLRw\">YT</a> <a href=\"https://www.linkedin.com/company/wemyss-malts/\" target=\"_blank\" title=\"https://www.linkedin.com/company/wemyss-malts/\">LI</a></p>"
+          }
+        },
+        "text_jTYLrF": {
+          "type": "text",
+          "settings": {
+            "title": "Trade Enquiries",
+            "richtext": "<p>General Enquiries:<br/><a href=\"mailto:info@wemyssfamilyspirits.com\" title=\"mailto:info@wemyssfamilyspirits.com\">info@wemyssfamilyspirits.com</a></p><p>Trade Enquiries:<br/><a href=\"mailto:sales@wemyssfamilyspirits.com\" title=\"mailto:sales@wemyssfamilyspirits.com\">sales@wemyssfamilyspirits.com</a> </p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "menu",
+        "text_R76MCA",
+        "text_3cGz4x",
+        "text_Mtk6BH",
+        "text_jTYLrF"
+      ],
+      "settings": {
+        "alignment": "left",
+        "heading_font_size": 14,
+        "color_scheme": "dark"
+      }
+    },
+    "aaa_doo_separator_Yd3aWj": {
+      "type": "aaa-doo-separator",
+      "custom_css": [
+        "section {background: #483728; padding-top: 30px; padding-bottom: 61px;}"
+      ],
+      "settings": {}
+    },
+    "rich_text_JQjJPH": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_kKfqkU": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Website by <a href=\"https://www.radiatordigital.com/\" target=\"_blank\" title=\"Radiator Digital Website\">Radiator Digital</a></p>",
+            "text_size": 14,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "richtext_kKfqkU"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 40,
+        "colors": "dark"
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "settings": {
+        "show_methods_of_payment": true,
+        "center_content_on_desktop": true,
+        "footer_text": "",
+        "show_currency_selector": true,
+        "show_locale_selector": false,
+        "color_scheme": "dark"
+      }
+    }
+  },
+  "order": [
+    "newsletter_ze9XCn",
+    "footer-main",
+    "aaa_doo_separator_Yd3aWj",
+    "rich_text_JQjJPH",
+    "footer-bottom"
+  ]
+}
