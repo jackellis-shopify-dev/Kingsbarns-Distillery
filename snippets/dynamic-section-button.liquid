@@ -41,7 +41,7 @@
 
   {% if has_link %}
     <a
-      href="{% if link %}{{ link }}{% else %}{{ request.origin }}{{ request.path }}{% endif %}"
+      {% if new_tab %} target="_blank" {% endif %} href="{% if link %}{{ link }}{% else %}{{ request.origin }}{{ request.path }}{% endif %}"
       class="dynamic-section-button--{{ id }} {{ style_classes }}{% if a_classes %} {{ a_classes }}{% endif %}"
       {% if aria_label %}aria-label="{{ aria_label }}"{% endif %}
       {% if attributes %}{{ attributes }}{% endif %}
