@@ -35,28 +35,6 @@
         "image_overlay_opacity": 26
       }
     },
-    "image_with_text_qmWegN": {
-      "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/doocot_collection_1080_x_1080.png",
-        "title": "The Single Malt of St Andrews",
-        "text": "<p>Located by St Andrews, and only a stone's throw away from the Home of Golf, we craft exceptional Lowland single malts with care and passion. Every bottle tells the story of the ingredients, the craft, and the people behind our whisky.</p><p></p>",
-        "button_label": "",
-        "button_link": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "left",
-        "text_alignment": "center",
-        "colors": "light"
-      }
-    },
     "product-grid": {
       "type": "template--collection",
       "settings": {
@@ -162,7 +140,6 @@
   },
   "order": [
     "collection-header-spotlight",
-    "image_with_text_qmWegN",
     "product-grid",
     "collage-builder-00",
     "navigation_banner_hM7878"
