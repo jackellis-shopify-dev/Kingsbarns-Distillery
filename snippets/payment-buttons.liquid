@@ -17,6 +17,10 @@
       {% render 'payment-buttons' with product: product, element_id: section.id, product_form_id: product_form_id, section_id: section.id, show_buy_now: section.settings.show_smart_checkout, gift_card_form_enabled: section.settings.enable_gift_card_recipient_form %}
 {% endcomment %}
 
+{% if product.tags contains 'FREE_ENGRAVING' %}
+  <script src="{{ 'component-free-engraving-script.js' | asset_url }}" defer></script>
+{% endif %}
+
 {% assign btn_id = element_id %}
 
 {% if block.settings.override_button_colors %}
