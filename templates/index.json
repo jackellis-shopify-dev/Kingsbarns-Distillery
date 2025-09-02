@@ -107,10 +107,10 @@
       ],
       "settings": {
         "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
-        "height_desktop": "original",
+        "height_desktop": "650px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
-        "caption_width_desktop": 72,
+        "caption_width_desktop": 49,
         "image_mobile": "shopify://shop_images/Subtitle_3.jpg",
         "height_mobile": "original",
         "text_position_mobile": "center",
