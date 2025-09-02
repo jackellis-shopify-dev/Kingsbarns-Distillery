@@ -107,7 +107,7 @@
       ],
       "settings": {
         "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
-        "height_desktop": "650px",
+        "height_desktop": "original",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 49,
