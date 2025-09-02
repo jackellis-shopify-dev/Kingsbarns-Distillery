@@ -85,7 +85,7 @@
         "heading_PcMULY": {
           "type": "heading",
           "settings": {
-            "title": "<strong>Private Cask Ownership</strong>",
+            "title": "",
             "font_size_desktop": 112,
             "font_size_mobile": 36,
             "heading_bottom_spacing": 6
@@ -94,43 +94,28 @@
         "text_iCR88n": {
           "type": "text",
           "settings": {
-            "text": "<p>We have a limited number of casks available for private ownership.</p><p>Learn more and be part of the Kingsbarns Distillery journey.</p>",
+            "text": "",
             "font_size_desktop": 22,
             "font_size_mobile": 12,
             "text_bottom_spacing": 15
-          }
-        },
-        "button_aBaGbP": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "shopify://pages/private-whisky-cask",
-            "first_button_label": "learn more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "buttons_background": "#e68819",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 0
           }
         }
       },
       "block_order": [
         "heading_PcMULY",
-        "text_iCR88n",
-        "button_aBaGbP"
+        "text_iCR88n"
       ],
       "settings": {
-        "image_desktop": "shopify://shop_images/PRIVATE_CASK_OWNERSHIP_Desktop_Wallpaper.jpg",
+        "image_desktop": "shopify://shop_images/Subtitle_2.jpg",
         "height_desktop": "original",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 72,
-        "image_mobile": "shopify://shop_images/PRIVATE_CASK_OWNERSHIP_Desktop_Wallpaper.jpg",
+        "image_mobile": "shopify://shop_images/Subtitle_1.jpg",
         "height_mobile": "original",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
-        "section_link": "",
+        "section_link": "shopify://products/kingsbarns-10yo-bourbon-and-str-single-malt-whisky-46-abv",
         "animation_style": "none",
         "section_margin_top": 0,
         "section_margin_bottom": 0,
