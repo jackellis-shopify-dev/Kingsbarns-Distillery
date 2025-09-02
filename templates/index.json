@@ -106,12 +106,12 @@
         "text_iCR88n"
       ],
       "settings": {
-        "image_desktop": "shopify://shop_images/Subtitle_2.jpg",
+        "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
         "height_desktop": "original",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 72,
-        "image_mobile": "shopify://shop_images/Subtitle_1.jpg",
+        "image_mobile": "shopify://shop_images/Subtitle_3.jpg",
         "height_mobile": "original",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
