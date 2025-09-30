@@ -114,6 +114,7 @@
         },
         "9c341458-2d2c-4317-a2cc-346e220f53e0": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "EU Shipping Information",
@@ -383,7 +384,13 @@
         "description": "",
         "section_padding_top": 60,
         "section_padding_bottom": 60,
-        "colors": "light"
+        "colors": "light",
+        "testimonials-image-button-label": "",
+        "testimonials-image-button-link": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
       }
     }
   },
