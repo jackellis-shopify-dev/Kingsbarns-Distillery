@@ -1,1 +1,250 @@
-{"sections":{"product-form":{"type":"template--product","blocks":{"custom_liquid_LHGeVR":{"type":"custom_liquid","settings":{"custom_liquid":"<span class=\"product-type\">{{product.type}}<\/span>","margin_bottom":3}},"title":{"type":"title","settings":{"title_font":"h1","margin_bottom":24}},"a55b9011-1b1a-4353-9d97-7bdcd60949f2":{"type":"product-description","settings":{"collapsible_tab":false,"icon":"none","heading":"Description","open_close_icon":"plus_minus","open_by_default":false,"margin_bottom":0}},"experiences_app_book_now_button_NPXUmQ":{"type":"shopify:\/\/apps\/experiences-app\/blocks\/book-now-button\/0f7bacd4-dd8b-4f37-98a0-d0ca3a8c3995","settings":{"use_simple_styles_mode":true,"primary_color":"#000000","on_primary_color":"#ffffff","border_radius":0,"book_button_text":"Book Now","number_of_previews":0,"custom_styles":""}},"b0c19132-8e54-4664-b8ce-0a8c7f1f7737":{"type":"collapsible-tab","disabled":true,"settings":{"icon":"none","heading":"Tour Booking FAQs","open_close_icon":"caret","text":"<p>Share some information about your product<\/p>","page":"","open_by_default":false,"margin_bottom":30}},"4fdb087c-4728-4785-b270-a71a092b7898":{"type":"social_sharing","settings":{"margin_bottom":20}}},"block_order":["custom_liquid_LHGeVR","title","a55b9011-1b1a-4353-9d97-7bdcd60949f2","experiences_app_book_now_button_NPXUmQ","b0c19132-8e54-4664-b8ce-0a8c7f1f7737","4fdb087c-4728-4785-b270-a71a092b7898"],"settings":{"enable_sticky":true,"image_size":"medium","image-display":"full-size","thumbnail_position":"left","enable_video_loop":true,"app_margin_bottom":20}},"product-description":{"type":"template--product--description","blocks":{"product-description":{"type":"product_description","settings":{"collapsible_tab":true,"title":"Description","open_by_default":false}},"collapsible-tab-1":{"type":"collapsible_tab","settings":{"title":"Product details","text":"<p>Share some information about your product<\/p>","page":"","open_by_default":false}},"collapsible-tab-2":{"type":"collapsible_tab","settings":{"title":"Product details","text":"<p>Share some information about your product<\/p>","page":"","open_by_default":false}}},"block_order":["product-description","collapsible-tab-1","collapsible-tab-2"],"disabled":true,"settings":{"open_close_icon":"plus_minus","section_width":"content","section_padding_top":60,"section_padding_bottom":60,"colors":"white","enable_readmore":false}},"f986e408-5557-4aaf-80fb-9cd7e2059a61":{"type":"template--product--info-columns","blocks":{"988fc3e8-03ca-407d-b680-304338edba69":{"type":"text","settings":{"heading":"","text":"<p>Gin Experiences<\/p><h2>Discover the unique  botanics of our boutique Gin Garden<\/h2><p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>","button_link":"","button_text":""}},"60467331-9399-4a07-bb8b-69e36ad7fea2":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/GIN-COTTAGE-EXT-L.jpg","grid_image_size":"square","heading":"","text":"","button_link":"","button_text":""}},"template--14831909634118__f986e408-5557-4aaf-80fb-9cd7e2059a61-image_and_text-2":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/gin_school_1080_x_1080.png","grid_image_size":"square","heading":"","text":"","button_link":"","button_text":""}}},"block_order":["988fc3e8-03ca-407d-b680-304338edba69","60467331-9399-4a07-bb8b-69e36ad7fea2","template--14831909634118__f986e408-5557-4aaf-80fb-9cd7e2059a61-image_and_text-2"],"settings":{"title":"","description":"","buttons_style":"underlined","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff","maximum_width":500,"columns_per_row":3,"text_alignment":"left","vertical_alignment":"center","text_alignment_mobile":"center","hover_navigation_desktop":"left-and-right","section_width":"content","section_padding_top":60,"section_padding_bottom":60,"colors":"light"}},"text_testimonials_TdTGj3":{"type":"testimonials","blocks":{"text_001":{"type":"text","settings":{"testimonial_text":"<p>\"We had an amazing tour and loved learning more about scotch whisky\"<\/p>","customer_name":"John Smith","link":"","stars":5}},"text_002":{"type":"text","settings":{"testimonial_text":"<p>\"Our guide James was incredibly knowledgable and helped bring the story of the distillery to life. \"<\/p>","customer_name":"John Smith","link":"","stars":5}},"text_003":{"type":"text","settings":{"testimonial_text":"<p>\"We loved our tour, but the tasking afterwards was even better!\"<\/p>","customer_name":"John Smith","link":"","stars":5}}},"block_order":["text_001","text_002","text_003"],"settings":{"circle_images":true,"title":"","description":"","section_padding_top":60,"section_padding_bottom":60,"colors":"dark"}},"product-recommendations":{"type":"template--product--recommendations","settings":{"title":"You may also like","description":"","layout_style":"slider","section_padding_top":60,"section_padding_bottom":60,"products_to_show":6,"grid-desktop":3,"grid-mobile":"2","colors":"light","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff"}}},"order":["product-form","product-description","f986e408-5557-4aaf-80fb-9cd7e2059a61","text_testimonials_TdTGj3","product-recommendations"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "custom_liquid_LHGeVR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span class=\"product-type\">{{product.type}}</span>",
+            "margin_bottom": 3
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_font": "h1",
+            "margin_bottom": 24
+          }
+        },
+        "a55b9011-1b1a-4353-9d97-7bdcd60949f2": {
+          "type": "product-description",
+          "settings": {
+            "collapsible_tab": false,
+            "icon": "none",
+            "heading": "Description",
+            "open_close_icon": "plus_minus",
+            "open_by_default": false,
+            "margin_bottom": 0
+          }
+        },
+        "b0c19132-8e54-4664-b8ce-0a8c7f1f7737": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "Tour Booking FAQs",
+            "open_close_icon": "caret",
+            "text": "<p>Share some information about your product</p>",
+            "page": "",
+            "open_by_default": false,
+            "margin_bottom": 30
+          }
+        },
+        "4fdb087c-4728-4785-b270-a71a092b7898": {
+          "type": "social_sharing",
+          "settings": {
+            "margin_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_LHGeVR",
+        "title",
+        "a55b9011-1b1a-4353-9d97-7bdcd60949f2",
+        "b0c19132-8e54-4664-b8ce-0a8c7f1f7737",
+        "4fdb087c-4728-4785-b270-a71a092b7898"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "image_size": "medium",
+        "image-display": "full-size",
+        "thumbnail_position": "left",
+        "enable_video_loop": true,
+        "app_margin_bottom": 20
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "blocks": {
+        "product-description": {
+          "type": "product_description",
+          "settings": {
+            "collapsible_tab": true,
+            "title": "Description",
+            "open_by_default": false
+          }
+        },
+        "collapsible-tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "Product details",
+            "text": "<p>Share some information about your product</p>",
+            "page": "",
+            "open_by_default": false
+          }
+        },
+        "collapsible-tab-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "Product details",
+            "text": "<p>Share some information about your product</p>",
+            "page": "",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "product-description",
+        "collapsible-tab-1",
+        "collapsible-tab-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "open_close_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "enable_readmore": false
+      }
+    },
+    "f986e408-5557-4aaf-80fb-9cd7e2059a61": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "988fc3e8-03ca-407d-b680-304338edba69": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<p>Gin Experiences</p><h2>Discover the unique  botanics of our boutique Gin Garden</h2><p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "60467331-9399-4a07-bb8b-69e36ad7fea2": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/GIN-COTTAGE-EXT-L.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "template--14831909634118__f986e408-5557-4aaf-80fb-9cd7e2059a61-image_and_text-2": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/gin_school_1080_x_1080.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "988fc3e8-03ca-407d-b680-304338edba69",
+        "60467331-9399-4a07-bb8b-69e36ad7fea2",
+        "template--14831909634118__f986e408-5557-4aaf-80fb-9cd7e2059a61-image_and_text-2"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "maximum_width": 500,
+        "columns_per_row": 3,
+        "text_alignment": "left",
+        "vertical_alignment": "center",
+        "text_alignment_mobile": "center",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "light"
+      }
+    },
+    "text_testimonials_TdTGj3": {
+      "type": "testimonials",
+      "blocks": {
+        "text_001": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"We had an amazing tour and loved learning more about scotch whisky\"</p>",
+            "customer_name": "John Smith",
+            "link": "",
+            "stars": 5
+          }
+        },
+        "text_002": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"Our guide James was incredibly knowledgable and helped bring the story of the distillery to life. \"</p>",
+            "customer_name": "John Smith",
+            "link": "",
+            "stars": 5
+          }
+        },
+        "text_003": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"We loved our tour, but the tasking afterwards was even better!\"</p>",
+            "customer_name": "John Smith",
+            "link": "",
+            "stars": 5
+          }
+        }
+      },
+      "block_order": [
+        "text_001",
+        "text_002",
+        "text_003"
+      ],
+      "settings": {
+        "circle_images": true,
+        "title": "",
+        "description": "",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "dark"
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "settings": {
+        "title": "You may also like",
+        "description": "",
+        "layout_style": "slider",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "products_to_show": 6,
+        "grid-desktop": 3,
+        "grid-mobile": "2",
+        "colors": "light",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "product-description",
+    "f986e408-5557-4aaf-80fb-9cd7e2059a61",
+    "text_testimonials_TdTGj3",
+    "product-recommendations"
+  ]
+}

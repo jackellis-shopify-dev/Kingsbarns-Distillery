@@ -1,0 +1,101 @@
+
+<script>
+
+  // Select all <a> or <button> elements with href="#form"
+  var buttons = document.querySelectorAll('a[href="#form"], button[href="#form"]');
+  var formTarget = document.querySelector('.custom-liquid');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', event => {
+      event.preventDefault(); // Prevent default anchor behavior
+      formTarget.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  });
+
+
+  var buttonsFAQ = document.querySelectorAll('a[href="#faq"], button[href="#faq"]');
+  var formTargetFAQ = document.querySelector('.shopify-section.accordion-faq');
+
+  buttonsFAQ.forEach(button => {
+    button.addEventListener('click', event => {
+      event.preventDefault(); // Prevent default anchor behavior
+      formTargetFAQ.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  var buttonsAMERICAN = document.querySelectorAll('a[href="#cask-american"], button[href="#cask-american"]');
+  var formTargetAMERICAN = document.querySelector('.section--template--26486278291803__collage_eQ7C98 .collage-builder__grid-item--template--26486278291803__collage_eQ7C98--1');
+
+  buttonsAMERICAN.forEach(button => {
+    button.addEventListener('click', event => {
+      event.preventDefault(); // Prevent default anchor behavior
+      formTargetAMERICAN.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  });
+
+    var buttonsHOG = document.querySelectorAll('a[href="#cask-hogshead"], button[href="#cask-hogshead"]');
+  var formTargetHOG = document.querySelector('.section--template--26486278291803__collage_eQ7C98 .collage-builder__grid-item--template--26486278291803__collage_eQ7C98--2');
+
+  buttonsHOG.forEach(button => {
+    button.addEventListener('click', event => {
+      event.preventDefault(); // Prevent default anchor behavior
+      formTargetHOG.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  });
+
+</script>
+{% comment %}
+<div id="cask_page_menu">
+  <div class="menu-container">
+    <div aria-id="shopify-section-template--26486278291803__collage_pp3fih">What We Offer</div>
+    <div aria-id="shopify-section-template--26486278291803__custom_liquid_R4iNeE">Get In Touch</div>
+    <div aria-id="shopify-section-template--26486278291803__image_with_text_overlay_PbFLzf">About Kingsbarn</div>
+    <div aria-id="shopify-section-template--26486278291803__video_6RUVLH">Video</div>
+    <div aria-id="shopify-section-template--26486278291803__slideshow_Trhbyd">Cask Journey</div>
+    <div aria-id="shopify-section-template--26486278291803__accordion_MkUyGp">FAQs</div>
+    <div aria-id="shopify-section-template--26486278291803__blog_posts_F3JMLk">Whiskey Insights</div>
+    <div aria-id="shopify-section-template--26486278291803__animated_text_UxMUqB">Reserve Your Cask</div>
+  </div>
+</div>
+
+<style>
+
+  .header_menu {
+    position: sticky;
+    top: calc(var(--sticky-header-mobile-height) + var(--sticky-header-desktop-height) - 1px);
+    z-index: 999;
+    background: white;
+  }
+  #cask_page_menu {
+    display: block;
+    width: 100%;
+  }
+
+  #cask_page_menu .menu-container {
+    display: flex;
+    min-width: max-content;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .shopify-section.highlight {
+    color: red !important;
+    border: 10px solid red;
+  }
+</style>
+{% endcomment %}
+  
+{% schema %}
+{
+  "name": "Cask Page Script",
+  "tag": "section",
+  "class": "header_menu",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Cask Page Script"
+    }
+  ]
+}
+{% endschema %}
