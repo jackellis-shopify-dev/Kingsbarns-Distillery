@@ -17,7 +17,7 @@
       {% endif %}
 
       {% unless content == blank %}
-        <div class="accordion-content" {{ block.shopify_attributes }}>
+        <div aria-title="{{ block.settings.question | handleize }}" class="accordion-content" {{ block.shopify_attributes }}>
           {% render 'collapsible-tab', icon: 'none', custom_icon: false, heading: block.settings.question, content: content, open_close_icon: section.settings.faq_icon, open_by_default: block.settings.open_by_default %}
         </div>
       {% endunless %}

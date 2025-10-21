@@ -36,6 +36,24 @@ class GlobalDrawer extends HTMLElement {
     this.setAttribute('aria-hidden', 'false');
     document.body.classList.add('js-drawer-open'); // Lock scroll
     this.addEventListener('transitionend', this.handleTransitionEnd);
+    
+    window.dataLayer = window.dataLayer || [];
+    if (window.pplr_cart && Array.isArray(window.pplr_cart.items)) {
+      const titlesString = window.pplr_cart.items
+        .map(item => item.title || item.product_title)
+        .filter(Boolean)
+        .join(', ');
+
+      window.dataLayer.push({
+        event: 'cart_open',
+        cart_product_titles: titlesString
+      });
+    } else {
+      window.dataLayer.push({
+        event: 'cart_open',
+        cart_product_titles: ''
+      });
+    }
   }
 
   closeDrawer() {

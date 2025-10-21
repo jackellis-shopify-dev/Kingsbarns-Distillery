@@ -37,7 +37,8 @@
 
                 {% unless section.settings.content-position == 'below-image' %}
                   [data-wetheme-section-id="{{ section.id }}"] .block-section--{{ block.id }} .grid-item__subheading,
-                  [data-wetheme-section-id="{{ section.id }}"] .block-section--{{ block.id }} .grid-item__title {
+                  [data-wetheme-section-id="{{ section.id }}"] .block-section--{{ block.id }} .grid-item__title,
+                  [data-wetheme-section-id="{{ section.id }}"] .block-section--{{ block.id }} .grid-item__richcontent {
                     color: {{ block.settings.overlay_font_color }};
                   }
                 {% endunless %}
@@ -84,6 +85,10 @@
                         
                         {% if block.settings.title != blank %}
                           <h2 class="grid-item__title">{{ block.settings.title }}</h2>
+                        {% endif %}
+
+                        {% if block.settings.content != blank %}
+                          <div class="grid-item__richcontent">{{ block.settings.content }}</div>
                         {% endif %}
 
                         {% if block.settings.overlay-btn-text != blank %}
@@ -337,6 +342,12 @@
           "id": "title",
           "label": "t:all.Heading",
           "default": "t:all.Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:all.Content",
+          "default": "t:all.Content"
         },
         {
           "type": "text",
