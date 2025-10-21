@@ -188,7 +188,7 @@
           "settings": {
             "heading": "New Make Spirit",
             "heading_size": 20,
-            "text": "",
+            "text": "Distilled from Fife-grown barley, our light, fruity new make spirit forms the foundation of Kingsbarns’ signature Lowland style.",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
@@ -206,7 +206,7 @@
           "settings": {
             "heading": "10 Years Storage & Insurance",
             "heading_size": 18,
-            "text": "",
+            "text": "Your cask will be cared for and monitored by our team for at least ten years, with full insurance included throughout its maturation.",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
@@ -224,7 +224,7 @@
           "settings": {
             "heading": "Bonded Warehouse",
             "heading_size": 20,
-            "text": "",
+            "text": "All casks are matured in our own HMRC-certified bonded warehouses, ensuring traceability and ideal conditions for slow, steady ageing.",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
@@ -242,7 +242,7 @@
           "settings": {
             "heading": "Regular Updates",
             "heading_size": 20,
-            "text": "",
+            "text": "Stay connected to your whisky’s story with updates, tasting samples, and access to our Vapour software to track your cask’s progress.",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
