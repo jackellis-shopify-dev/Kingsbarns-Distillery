@@ -1021,7 +1021,7 @@
         "richtext_z7NbFK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Interested in owning your own cask or simply want to learn more? Get in touch with our team — we’re always happy to help.<br/><br/>📞 <a href=\"tel:+44 (0) 1333 451300\" title=\"tel:+44 (0) 1333 451300\">+44 (0) 1333 451300</a><br/>📍 Kingsbarns Distillery & Visitor Centre, East Newhall Farm, Kingsbarns, St Andrews, KY16 8QE<br/>✉️ <a>casks@kingsbarnsdistillery.com</a></p>",
+            "text": "<p>Interested in owning your own cask or simply want to learn more? Get in touch with our team — we’re always happy to help.<br/><br/>📞 <a href=\"tel:+44 (0) 1333 451300\" title=\"tel:+44 (0) 1333 451300\">+44 (0) 1333 451300</a><br/>📍 Kingsbarns Distillery & Visitor Centre, East Newhall Farm, Kingsbarns, St Andrews, KY16 8QE<br/>✉️ <a href=\"mailto:casks@kingsbarnsdistillery.com\" title=\"mailto:casks@kingsbarnsdistillery.com\">casks@kingsbarnsdistillery.com</a></p>",
             "text_size": 14,
             "text_bottom_spacing": 20
           }
