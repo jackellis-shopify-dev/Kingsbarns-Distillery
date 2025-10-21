@@ -188,7 +188,7 @@
           "settings": {
             "heading": "New Make Spirit",
             "heading_size": 20,
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
@@ -206,7 +206,7 @@
           "settings": {
             "heading": "10 Years Storage & Insurance",
             "heading_size": 18,
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
@@ -224,7 +224,7 @@
           "settings": {
             "heading": "Bonded Warehouse",
             "heading_size": 20,
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
@@ -242,7 +242,7 @@
           "settings": {
             "heading": "Regular Updates",
             "heading_size": 20,
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
@@ -419,6 +419,9 @@
       "block_order": [
         "image_6Qg8jm",
         "image_mCzxPF"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) and (max-width: 1400px) {.collage-builder__grid-item {min-height: 75vh; }}"
       ],
       "name": "t:sections.collage-builder.presets.name",
       "settings": {
