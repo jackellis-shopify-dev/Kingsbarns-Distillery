@@ -21,18 +21,17 @@
   });
 
   var buttonsAMERICAN = document.querySelectorAll('a[href="#cask-american"], button[href="#cask-american"]');
-  var formTargetAMERICAN = document.querySelector('.section--template--26486278291803__collage_eQ7C98 .collage-builder__grid-item--template--26486278291803__collage_eQ7C98--1');
+  var formTargetAMERICAN = document.querySelector('div[aria-title="American Standard Barrel (Ex-Bourbon)"]');
 
   buttonsAMERICAN.forEach(button => {
     button.addEventListener('click', event => {
       event.preventDefault(); // Prevent default anchor behavior
-      alert('click');
       formTargetAMERICAN.scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
   });
 
     var buttonsHOG = document.querySelectorAll('a[href="#cask-hogshead"], button[href="#cask-hogshead"]');
-  var formTargetHOG = document.querySelector('.section--template--26486278291803__collage_eQ7C98 .collage-builder__grid-item--template--26486278291803__collage_eQ7C98--2');
+  var formTargetHOG = document.querySelector('div[aria-title="Hogshead (Ex-Sherry Cask)"]');
 
   buttonsHOG.forEach(button => {
     button.addEventListener('click', event => {
