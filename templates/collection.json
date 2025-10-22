@@ -58,6 +58,7 @@
           "settings": {
             "desktop_image": "shopify://shop_images/DSC00226.jpg",
             "heading": "Getting Here",
+            "content": "<p>Add copy</p>",
             "heading_size": 28,
             "url": "shopify://pages/getting-here",
             "button_label": "Learn More",
@@ -77,6 +78,7 @@
             "desktop_image": "shopify://shop_images/latte-with-leaf-design.jpg",
             "mobile_image": "shopify://shop_images/latte-with-leaf-design.jpg",
             "heading": "Cafe & Shop",
+            "content": "<p>Add copy</p>",
             "heading_size": 28,
             "url": "shopify://pages/cafe-shop",
             "button_label": "Learn More",
@@ -95,6 +97,7 @@
         "collage-builder-block-00",
         "collage-builder-block-01"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
