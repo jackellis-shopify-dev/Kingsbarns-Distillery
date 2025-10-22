@@ -21,7 +21,7 @@
   });
 
   var buttonsAMERICAN = document.querySelectorAll('a[href="#cask-american"], button[href="#cask-american"]');
-  var formTargetAMERICAN = document.querySelector('div[aria-title="American Standard Barrel (Ex-Bourbon)"]');
+  var formTargetAMERICAN = document.querySelectorAll('div[aria-title="American Standard Barrel (Ex-Bourbon)"]')[1];
 
   buttonsAMERICAN.forEach(button => {
     button.addEventListener('click', event => {
@@ -31,7 +31,7 @@
   });
 
     var buttonsHOG = document.querySelectorAll('a[href="#cask-hogshead"], button[href="#cask-hogshead"]');
-  var formTargetHOG = document.querySelector('div[aria-title="Hogshead (Ex-Sherry Cask)"]');
+    var formTargetHOG = document.querySelectorAll('div[aria-title="Hogshead (Ex-Sherry Cask)"]')[1];
 
   buttonsHOG.forEach(button => {
     button.addEventListener('click', event => {
