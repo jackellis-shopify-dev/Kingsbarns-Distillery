@@ -29,6 +29,7 @@
   buttonsAMERICAN.forEach(button => {
     button.addEventListener('click', event => {
       event.preventDefault(); // Prevent default anchor behavior
+      alert('click');
       formTargetAMERICAN.scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
   });
