@@ -99,26 +99,11 @@
             "font_size_mobile": 12,
             "text_bottom_spacing": 15
           }
-        },
-        "button_erbmVA": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "",
-            "first_button_label": "Available UK & Rest of World: Shop Now",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "buttons_background": "#e68819",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
-          }
         }
       },
       "block_order": [
         "heading_PcMULY",
-        "text_iCR88n",
-        "button_erbmVA"
+        "text_iCR88n"
       ],
       "settings": {
         "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
