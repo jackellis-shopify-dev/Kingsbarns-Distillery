@@ -99,16 +99,31 @@
             "font_size_mobile": 12,
             "text_bottom_spacing": 15
           }
+        },
+        "button_erbmVA": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "",
+            "first_button_label": "Shop now",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 20
+          }
         }
       },
       "block_order": [
         "heading_PcMULY",
-        "text_iCR88n"
+        "text_iCR88n",
+        "button_erbmVA"
       ],
       "settings": {
         "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
         "height_desktop": "original",
-        "text_position_desktop": "center",
+        "text_position_desktop": "bottom_left",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 49,
         "image_mobile": "shopify://shop_images/Subtitle_3.jpg",
@@ -370,6 +385,7 @@
             "desktop_image": "shopify://shop_images/distillery_reserve_1080_x_1080_2.png",
             "mobile_image": "shopify://shop_images/distillery_reserve_1080_x_1080_2.png",
             "heading": "Distillery Reserve 2024",
+            "content": "<p>Add copy</p>",
             "heading_size": 60,
             "url": "shopify://products/kingsbarns-distillery-reserve-2024",
             "button_label": "Shop now",
@@ -388,6 +404,7 @@
           "settings": {
             "desktop_image": "shopify://shop_images/DARNLEYS_GIN_NS_4901_The_NeukSq.jpg",
             "heading": "Darnley's Gin: The Neuk",
+            "content": "<p>Add copy</p>",
             "heading_size": 30,
             "url": "https://www.kingsbarnsdistillery.com/blogs/cocktails-perfect-serves/the-neuk",
             "button_label": "View Recipe",
@@ -406,6 +423,7 @@
           "settings": {
             "desktop_image": "shopify://shop_images/Kingsbarns_Distillery_21.1.23__-_93.jpg",
             "heading": "Become A Founder",
+            "content": "<p>Add copy</p>",
             "heading_size": 30,
             "url": "shopify://pages/join-our-founders-club",
             "button_label": "Learn More",
@@ -424,6 +442,7 @@
           "settings": {
             "desktop_image": "shopify://shop_images/50.png",
             "heading": "",
+            "content": "<p>Add copy</p>",
             "heading_size": 30,
             "url": "https://www.kingsbarnsdistillery.com/pages/whisky-tours",
             "button_label": "Book New Experience",
