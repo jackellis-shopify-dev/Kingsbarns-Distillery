@@ -127,7 +127,7 @@
         "text_alignment_desktop": "center",
         "caption_width_desktop": 20,
         "image_mobile": "shopify://shop_images/Subtitle_3.jpg",
-        "height_mobile": "original",
+        "height_mobile": "250px",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
         "section_link": "shopify://products/kingsbarns-10yo-bourbon-and-str-single-malt-whisky-46-abv",
