@@ -583,3 +583,9 @@ body .color-scheme--light.product-section .shopify-payment-button__button--unbra
 .site-nav li:nth-last-child(-n+3) .site-nav__subdropdown {
  left: -100% !important;
 }
+
+/* CUSTOM CSS */
+
+.u-hidden {
+  display: none !important;
+}
