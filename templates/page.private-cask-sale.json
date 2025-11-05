@@ -824,7 +824,7 @@
           "type": "tab_content",
           "settings": {
             "question": "What happens if I can’t be contacted after 10 years?",
-            "text": "<p>If we can’t reach you, we reserve the right to sell the whisky at fair market value. We’ll hold the net proceeds on your behalf, but will deduct any costs and applicable taxes.</p>",
+            "text": "<p>If we can’t reach you, we reserve the right to sell the cask of single malt whisky at fair market value. We’ll hold the net proceeds on your behalf, but will deduct any costs and applicable taxes.</p>",
             "page": "",
             "open_by_default": false
           }
