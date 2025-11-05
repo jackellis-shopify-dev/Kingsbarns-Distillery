@@ -850,7 +850,7 @@
         "tab_content_meB7HN": {
           "type": "tab_content",
           "settings": {
-            "question": "Where is the cask stored?",
+            "question": "Where is the whisky cask stored?",
             "text": "<p>All casks will be stored at our bonded facility in Glenrothes, under the control of Kingsbarns. The casks cannot be removed from this location.<br/></p>",
             "page": "",
             "open_by_default": false
