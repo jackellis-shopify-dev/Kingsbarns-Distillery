@@ -779,7 +779,7 @@
           "type": "tab_content",
           "settings": {
             "question": "Who handles the bottling?",
-            "text": "<p>All bottling is managed by Kingsbarns. We must use our approved dry goods and suppliers, but we’ll consider reasonable customisation requests (labels, closures, packaging, etc.) at your expense.</p>",
+            "text": "<p>All bottling of your single malt cask is managed by Kingsbarns. We must use our approved dry goods and suppliers, but we’ll consider reasonable customisation requests (labels, closures, packaging, etc.) at your expense.</p>",
             "page": "",
             "open_by_default": false
           }
