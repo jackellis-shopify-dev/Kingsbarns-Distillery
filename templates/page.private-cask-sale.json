@@ -16,8 +16,8 @@
         "p {font-size: 2vh;}"
       ],
       "settings": {
-        "title": "Buy a Private Whisky Cask from Kingsbarns Distillery | Own Your Cask",
-        "subtitle": "An exclusive journey from spirit to bottle — secure your own cask of Kingsbarns.",
+        "title": "Buy a Private Cask from Kingsbarns Distillery | Own Your Cask",
+        "subtitle": "An exclusive journey from spirit to single malt in a bottle — secure your own cask of Kingsbarns.",
         "image_bg": "shopify://shop_images/ewanharvey-kingsbarns2023-220021.jpg"
       }
     },
@@ -242,7 +242,7 @@
           "settings": {
             "heading": "Regular Updates",
             "heading_size": 20,
-            "text": "Stay connected to your whisky’s story with updates, tasting samples, and access to our Vapour software to track your cask’s progress.",
+            "text": "Stay connected to your single malt whisky’s story with updates, tasting samples, and access to our Vapour software to track your cask’s progress.",
             "text_alignment": "center",
             "url": "",
             "button_label": "",
