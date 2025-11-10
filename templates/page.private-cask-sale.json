@@ -12,7 +12,6 @@
     "aaa_page_header_with_brand_QFyA9z": {
       "type": "aaa-page-header-with-brand",
       "custom_css": [
-        "H1 {font-size: 3vh;}",
         "p {font-size: 2vh;}"
       ],
       "settings": {
