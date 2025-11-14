@@ -54,14 +54,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="description" content="{{ page_description | escape }}">
   {% endif %}
 
-  <!-- Plausible CSP ================================================== -->
+<!-- Privacy-friendly analytics by Plausible -->
 
-  <meta http-equiv="Content-Security-Policy" content="
-  default-src 'self';
-  script-src 'self' https://cdn.shopify.com https://plausible.io;
-  img-src 'self' https://cdn.shopify.com https://plausible.io;
-  connect-src 'self' https://plausible.io;
-">
+<script async src="https://plausible.io/js/pa-W42A02WsalratO17TN8lf.js"></script>
+
+<script>
+
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+
+  plausible.init()
+
+</script>
 
   <!-- Helpers ================================================== -->
   {% render 'social-meta-tags' %}
