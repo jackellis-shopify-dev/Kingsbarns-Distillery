@@ -9,6 +9,11 @@
  */
 {
   "sections": {
+    "private_cask_script_dRGc3j": {
+      "type": "private-cask-script",
+      "name": "Cask Page Script",
+      "settings": {}
+    },
     "aaa_page_header_with_brand_QFyA9z": {
       "type": "aaa-page-header-with-brand",
       "custom_css": [
@@ -1051,14 +1056,10 @@
         "section_padding_bottom": 60,
         "colors": "white"
       }
-    },
-    "private_cask_script_dRGc3j": {
-      "type": "private-cask-script",
-      "name": "Cask Page Script",
-      "settings": {}
     }
   },
   "order": [
+    "private_cask_script_dRGc3j",
     "aaa_page_header_with_brand_QFyA9z",
     "gallery_CNAp8j",
     "main",
@@ -1077,7 +1078,6 @@
     "accordion_MkUyGp",
     "blog_posts_F3JMLk",
     "animated_text_UxMUqB",
-    "rich_text_XTfjhy",
-    "private_cask_script_dRGc3j"
+    "rich_text_XTfjhy"
   ]
 }
