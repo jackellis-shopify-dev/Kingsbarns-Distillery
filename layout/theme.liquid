@@ -32,6 +32,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {{ 'theme.min.css' | asset_url | stylesheet_tag: preload: true }}
   {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
 
+  {%- comment -%}Hide pop-up form unless user is on the cask page{%- endcomment -%}
+  {% unless template == 'page.private-cask-sale' %}
+    <style>
+      shopify-forms-embed#app-embed-container-758740 {
+        display: none !important;
+      }
+    </style>
+  {% endunless %}
+
   {% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 180, height: 180, crop: 'center' }}" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ settings.favicon | image_url: width: 180, height: 180, crop: 'center' }}">
