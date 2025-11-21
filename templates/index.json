@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "17637632435ded8197": {
+      "type": "apps",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
     "174852555296a4f07f": {
       "type": "_blocks",
       "blocks": {
@@ -736,6 +744,7 @@
     }
   },
   "order": [
+    "17637632435ded8197",
     "174852555296a4f07f",
     "image_with_text_xNQTaY",
     "image_with_text_overlay_yhifEJ",
