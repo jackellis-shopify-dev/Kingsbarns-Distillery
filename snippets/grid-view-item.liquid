@@ -79,6 +79,7 @@
         assign preorder_string = 'products.product.preorder' | t | downcase
         assign preorder_product = false
         assign custom_badge = nil
+        assign isCask = false
 
         if product.available
           for tag in product.tags
@@ -88,6 +89,9 @@
             endif
             if preorder_product == false and tag contains '_badge:'
               assign custom_badge = tag | remove: '_badge:'
+            endif
+            if tag == 'cask'
+              assign isCask = true
             endif
           endfor
         endif
@@ -147,7 +151,7 @@
 
       <div class="product-card-image--bottom-wrapper">
         {% if quick_shop_desktop_enabled or quick_shop_mobile_enabled %}
-          {% if settings.quick_shop_button_display == 'over_image' %}
+          {% if settings.quick_shop_button_display == 'over_image' and isCask != true %}
             <div class="quick-add-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}">
               {% if product.variants.size > 1 and product.available %}
                   {% if quick_shop_desktop_enabled %}
@@ -219,7 +223,7 @@
   </div>
 
   {% if quick_shop_desktop_enabled or quick_shop_mobile_enabled %}
-    {% if settings.quick_shop_button_display == 'below_image' %}
+    {% if settings.quick_shop_button_display == 'below_image' and isCask != true %}
       <div class="quick-add-wrapper quick-shop--block{% if product.variants.size == 1 %} is-singular{% endif %}{% if quick_shop_mobile_only %} large-hide{% elsif quick_shop_desktop_only %} small-hide{% endif %}{% if settings.quick_shop_button_style == 'underlined' %} text-link-animated{% endif %}">
         {% liquid
           case settings.quick_shop_button_style
