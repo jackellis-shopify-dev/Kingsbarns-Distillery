@@ -89,7 +89,7 @@
 
 {%- if badge == 'sale' -%}
 	{% if product_on_sale == true %}
-    {% if target.metafields.custom.sale_badge_x_off == true %}
+    {% if badge_product.metafields.custom.sale_badge_x_off == true %}
       {% if current_variant_on_sale and target.compare_at_price %}
         <div class="sale-badge badge">{{ discount_value }}</div>
       {% else %}
