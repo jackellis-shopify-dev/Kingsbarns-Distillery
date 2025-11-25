@@ -78,6 +78,22 @@
   data-wetheme-section-type="template--product"
   data-wetheme-section-id="{{ section.id }}"
 >
+
+  {% liquid
+    assign back_collection = collection
+    if back_collection == blank and product.collections.size > 0
+      assign back_collection = product.collections.first
+    endif
+  %}
+
+  <div class="product-single-breadcrumb">
+    {% if back_collection %}
+      <a class="product-single-breadcrumb__link nav-link-animated" href="{{ back_collection.url }}" aria-label="Back to {{ back_collection.title }}">
+        Back to {{ back_collection.title }}
+      </a>
+    {% endif %}
+  </div>
+
   <div class="product-single-wrapper width--content">
     <div
       class="product-single{% if section.settings.media_position == "right" %} product-media--right{% endif %}{% if section.settings.enable_sticky %} product-sticky-wrapper{% endif %}{% if options_block.settings.variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}"

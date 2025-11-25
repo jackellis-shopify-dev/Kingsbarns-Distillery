@@ -89,24 +89,32 @@
 
 {%- if badge == 'sale' -%}
 	{% if product_on_sale == true %}
-		{% case settings.discount_badge_type %}
-			{% when 'hide' %}
-				<div class="sale-badge badge">{{ 'products.product.sale' | t }}</div>
+    {% if target.metafields.custom.sale_badge_x_off == true %}
+      {% if current_variant_on_sale and target.compare_at_price %}
+        <div class="sale-badge badge">{{ discount_value }}</div>
+      {% else %}
+        <div class="sale-badge badge">{{ 'products.product.sale' | t }}</div>
+      {% endif %}
+    {% else %}
+      {% case settings.discount_badge_type %}
+        {% when 'hide' %}
+          <div class="sale-badge badge">{{ 'products.product.sale' | t }}</div>
 
-			{% when 'percentage' %}
-				{% if current_variant_on_sale and discount_percentage != '-0%' and discount_percentage != blank %}
-					<div class="sale-badge badge">{{ discount_percentage }}</div>
-				{% else %}
-					<div class="sale-badge badge">{{ 'products.product.sale' | t }}</div>
-				{% endif %}
+        {% when 'percentage' %}
+          {% if current_variant_on_sale and discount_percentage != '-0%' and discount_percentage != blank %}
+            <div class="sale-badge badge">{{ discount_percentage }}</div>
+          {% else %}
+            <div class="sale-badge badge">{{ 'products.product.sale' | t }}</div>
+          {% endif %}
 
-			{% when 'value' %}
-				{% if current_variant_on_sale and target.compare_at_price %}
-					<div class="sale-badge badge">{{ discount_value }}</div>
-				{% else %}
-					<div class="sale-badge badge">{{ 'products.product.sale' | t }}</div>
-				{% endif %}
-		{% endcase %}
+        {% when 'value' %}
+          {% if current_variant_on_sale and target.compare_at_price %}
+            <div class="sale-badge badge">{{ discount_value }}</div>
+          {% else %}
+            <div class="sale-badge badge">{{ 'products.product.sale' | t }}</div>
+          {% endif %}
+      {% endcase %}
+    {% endif %}
 	{% endif %}
 {%- elsif badge == 'sold-out' -%}
 	<div class="sold-out-badge badge">{{ 'products.product.sold_out' | t }}</div>

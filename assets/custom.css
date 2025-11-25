@@ -45,6 +45,32 @@ body .color-scheme--light.product-section .shopify-payment-button__button--unbra
   background-color:#111;
 }
 
+/* Product breadcrumb */
+.product-single-breadcrumb{
+  margin: 0 0 20px;
+}
+
+.product-single-breadcrumb__link{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.product-single-breadcrumb__link:before{
+  content: "<";
+  font-size: 14px;
+  line-height: 1;
+}
+
+.product-single-breadcrumb__link:hover{
+  text-decoration: underline;
+}
+
 /* HEADER GLOBAL STYLES */
 .template-index
   .header-section.sticky-header:not(.sticked)
