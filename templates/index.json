@@ -153,7 +153,7 @@
         "slide_navigation_style": "bars",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "desktop_height": "full_screen",
+        "desktop_height": "original",
         "mobile_height": "extra_large"
       }
     },
