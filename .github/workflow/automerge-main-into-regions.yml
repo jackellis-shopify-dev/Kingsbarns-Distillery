@@ -1,0 +1,58 @@
+name: Auto-merge main into region branches
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}  # allow manual run
+
+permissions:
+  contents: write
+
+jobs:
+  merge-main-into-regions:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        branch:
+          - "main/uk"
+          - "main/us"
+          - "main/eu"
+          - "main/row"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Merge main into ${{ matrix.branch }}
+        run: |
+          TARGET="${{ matrix.branch }}"
+
+          # Make sure we have everything
+          git fetch origin
+
+          # Ensure main is up to date
+          git checkout main
+          git reset --hard origin/main
+
+          # Ensure target branch is up to date
+          git checkout "$TARGET"
+          git reset --hard "origin/$TARGET"
+
+          # Merge main into target
+          if ! git merge --no-ff --no-edit main; then
+            echo "Merge conflict when merging main into $TARGET."
+            echo "Please resolve manually."
+            exit 1
+          fi
+
+          # Push updated target branch
+          git push origin "$TARGET"
