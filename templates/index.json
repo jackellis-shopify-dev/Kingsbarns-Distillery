@@ -87,50 +87,74 @@
         "colors": "light"
       }
     },
-    "image_with_text_overlay_yhifEJ": {
-      "type": "image-with-text-overlay",
+    "slideshow_CtHbaV": {
+      "type": "slideshow",
       "blocks": {
-        "heading_PcMULY": {
-          "type": "heading",
+        "image_ambM8F": {
+          "type": "image",
           "settings": {
             "title": "",
-            "font_size_desktop": 112,
-            "font_size_mobile": 36,
-            "heading_bottom_spacing": 6
+            "text": "",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#E68819",
+            "button-text": "#FFFFFF",
+            "image": "shopify://shop_images/VelvetFig12_SocialBanner_1200x628_144_15OCT25_71e5719e-3f34-42e2-b05d-012c7301258e.jpg",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom_right",
+            "mobile_image": "shopify://shop_images/VF_Square.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "bottom_right",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
           }
         },
-        "text_iCR88n": {
-          "type": "text",
+        "image_9ffb8n": {
+          "type": "image",
           "settings": {
-            "text": "",
-            "font_size_desktop": 22,
-            "font_size_mobile": 12,
-            "text_bottom_spacing": 15
+            "title": "DISCOVER THE \nBLACK FRIDAY EDIT",
+            "text": "Core Collection & Single Cask Savings",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#E68819",
+            "button-text": "#FFFFFF",
+            "image": "shopify://shop_images/Untitled_2000_x_1000_px.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/Untitled_2000_x_1000_px.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
           }
         }
       },
       "block_order": [
-        "heading_PcMULY",
-        "text_iCR88n"
+        "image_ambM8F",
+        "image_9ffb8n"
       ],
+      "name": "t:sections.image--slideshow.presets.name",
       "settings": {
-        "image_desktop": "shopify://shop_images/DISCOVER_THE_BLACK_FRIDAY_EDIT._3200_x_1400_px.png",
-        "height_desktop": "original",
-        "text_position_desktop": "bottom_center",
-        "text_alignment_desktop": "center",
-        "caption_width_desktop": 20,
-        "image_mobile": "shopify://shop_images/DISCOVER_THE_BLACK_FRIDAY_EDIT._3200_x_1400_px.png",
-        "height_mobile": "original",
-        "text_position_mobile": "bottom_center",
-        "text_alignment_mobile": "center",
-        "section_link": "shopify://collections/black-friday-shop-all",
-        "animation_style": "none",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#ffffff",
-        "caption_bg_color": "rgba(0,0,0,0)",
-        "image_overlay_color": "#242424",
-        "image_overlay_opacity": 0
+        "slide_transition_delay": 7,
+        "slide_navigation_style": "bars",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "desktop_height": "full_screen",
+        "mobile_height": "extra_large"
       }
     },
     "video_hero_b3W7LY": {
@@ -747,7 +771,7 @@
     "17637632435ded8197",
     "174852555296a4f07f",
     "image_with_text_xNQTaY",
-    "image_with_text_overlay_yhifEJ",
+    "slideshow_CtHbaV",
     "video_hero_b3W7LY",
     "countdown_cFgED4",
     "rich_text_VcennU",
