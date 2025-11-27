@@ -1,25 +1,25 @@
-name: Auto-merge main into region branches
+name: Auto-merge main into store branches
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch: {}  # allow manual run
+  workflow_dispatch: {}  # lets you run it manually from the Actions tab
 
 permissions:
   contents: write
 
 jobs:
-  merge-main-into-regions:
+  merge-main-into-stores:
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
         branch:
-          - "main/uk"
-          - "main/us"
-          - "main/eu"
-          - "main/row"
+          - "store/uk"
+          - "store/us"
+          - "store/eu"
+          - "store/row"
 
     steps:
       - name: Checkout
@@ -36,21 +36,20 @@ jobs:
         run: |
           TARGET="${{ matrix.branch }}"
 
-          # Make sure we have everything
           git fetch origin
 
-          # Ensure main is up to date
+          # Update local main to match origin
           git checkout main
           git reset --hard origin/main
 
-          # Ensure target branch is up to date
+          # Update local target to match origin
           git checkout "$TARGET"
           git reset --hard "origin/$TARGET"
 
           # Merge main into target
           if ! git merge --no-ff --no-edit main; then
             echo "Merge conflict when merging main into $TARGET."
-            echo "Please resolve manually."
+            echo "Resolve this merge manually in your local repo."
             exit 1
           fi
 
