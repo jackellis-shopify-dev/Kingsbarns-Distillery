@@ -92,6 +92,7 @@
       "blocks": {
         "image_ambM8F": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "",
