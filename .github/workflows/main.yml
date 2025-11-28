@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: {}  # lets you run it manually from the Actions tab
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -30,7 +30,7 @@ jobs:
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
+          git config user.email "actions@example.com"
 
       - name: Merge main into ${{ matrix.branch }}
         run: |
@@ -38,20 +38,15 @@ jobs:
 
           git fetch origin
 
-          # Update local main to match origin
           git checkout main
           git reset --hard origin/main
 
-          # Update local target to match origin
           git checkout "$TARGET"
           git reset --hard "origin/$TARGET"
 
-          # Merge main into target
           if ! git merge --no-ff --no-edit main; then
             echo "Merge conflict when merging main into $TARGET."
-            echo "Resolve this merge manually in your local repo."
             exit 1
           fi
 
-          # Push updated target branch
           git push origin "$TARGET"
