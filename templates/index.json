@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "17637632435ded8197": {
-      "type": "apps",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": true
-      }
-    },
     "174852555296a4f07f": {
       "type": "_blocks",
       "blocks": {
@@ -87,74 +79,50 @@
         "colors": "light"
       }
     },
-    "slideshow_CtHbaV": {
-      "type": "slideshow",
+    "image_with_text_overlay_yhifEJ": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_ambM8F": {
-          "type": "image",
+        "heading_PcMULY": {
+          "type": "heading",
           "settings": {
             "title": "",
-            "text": "",
-            "first_button_label": "Shop now",
-            "first_button_link": "https://www.kingsbarnsdistillery.com/collections/wemyss-malts-limited-edition/products/velvet-fig-12yo-blended-malt-70cl-46",
-            "second_button_label": "",
-            "second_button_link": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button-background": "#e68819",
-            "button-text": "#ffffff",
-            "image": "shopify://shop_images/WEB_SHOPIFY_1800X1000_0f403b28-4be7-4eb7-a44a-77776220f461.png",
-            "desktop-caption-heading-size": 60,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "bottom_right",
-            "mobile_image": "shopify://shop_images/VF_Square.png",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "bottom_right",
-            "image_overlay": "#242424",
-            "image_overlay_opacity": 0,
-            "caption-text": "#ffffff"
+            "font_size_desktop": 112,
+            "font_size_mobile": 36,
+            "heading_bottom_spacing": 6
           }
         },
-        "image_9ffb8n": {
-          "type": "image",
+        "text_iCR88n": {
+          "type": "text",
           "settings": {
-            "title": "DISCOVER THE \nBLACK FRIDAY EDIT",
-            "text": "Core Collection & Single Cask Savings",
-            "first_button_label": "Shop now",
-            "first_button_link": "https://www.kingsbarnsdistillery.com/collections/black-friday-shop-all",
-            "second_button_label": "",
-            "second_button_link": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button-background": "#e68819",
-            "button-text": "#ffffff",
-            "image": "shopify://shop_images/SHOPIFY_DESKTOP_BF.png",
-            "desktop-caption-heading-size": 60,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "center_left",
-            "mobile_image": "shopify://shop_images/Untitled_2000_x_1000_px.png",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "center_left",
-            "image_overlay": "#242424",
-            "image_overlay_opacity": 0,
-            "caption-text": "#ffffff"
+            "text": "",
+            "font_size_desktop": 22,
+            "font_size_mobile": 12,
+            "text_bottom_spacing": 15
           }
         }
       },
       "block_order": [
-        "image_ambM8F",
-        "image_9ffb8n"
+        "heading_PcMULY",
+        "text_iCR88n"
       ],
-      "name": "t:sections.image--slideshow.presets.name",
       "settings": {
-        "slide_transition_delay": 7,
-        "slide_navigation_style": "bars",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "desktop_height": "full_screen",
-        "mobile_height": "extra_large"
+        "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
+        "height_desktop": "original",
+        "text_position_desktop": "bottom_center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 20,
+        "image_mobile": "shopify://shop_images/Subtitle_3.jpg",
+        "height_mobile": "original",
+        "text_position_mobile": "bottom_center",
+        "text_alignment_mobile": "center",
+        "section_link": "shopify://collections/black-friday-shop-all",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
       }
     },
     "video_hero_b3W7LY": {
@@ -288,9 +256,9 @@
         "template--15051013783622__06b36118-35e6-4312-b5b2-099a0ddc5aa6-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "black-friday-kingsbarns-core",
+            "collection": "kingsbarns-core-collection",
             "collection_img": "shopify://shop_images/Untitled_design_1.jpg",
-            "subheading": "Explore Black Friday",
+            "subheading": "Explore",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
@@ -300,9 +268,9 @@
         "featured_collection_9r8PGU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "black-friday-wemyss-core",
+            "collection": "wemyss-malts-collection",
             "collection_img": "shopify://shop_images/Untitled_design_2.jpg",
-            "subheading": "Explore Black Friday",
+            "subheading": "Explore",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
@@ -312,9 +280,9 @@
         "template--15051013783622__06b36118-35e6-4312-b5b2-099a0ddc5aa6-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "black-friday-darnleys-core",
+            "collection": "darnleys-gin",
             "collection_img": "shopify://shop_images/Social_sized_logo.png",
-            "subheading": "Explore Black Friday",
+            "subheading": "Explore",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
@@ -349,8 +317,8 @@
         "button_XpmQPh": {
           "type": "button",
           "settings": {
-            "button_link": "shopify://collections/black-friday-shop-all",
-            "button_text": "Browse all Black Friday",
+            "button_link": "shopify://collections/all",
+            "button_text": "Browse all products",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
@@ -366,7 +334,7 @@
         "section_width": "narrow",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
-        "section_padding_top": 60,
+        "section_padding_top": 0,
         "section_padding_bottom": 60,
         "colors": "white"
       }
@@ -532,9 +500,9 @@
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shop Black Friday",
-        "description": "<p>Explore the top Black Friday offers from Kingsbarns, Wemyss, and Darnleys.</p>",
-        "collection": "black-friday-shop-all",
+        "title": "Our Product Range",
+        "description": "<p>Browse our portfolio of award-winning single malts, blended malts, and natural gins.</p>",
+        "collection": "frontpage",
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
@@ -543,8 +511,8 @@
         "section_padding_top": 60,
         "section_padding_bottom": 60,
         "layout_style": "grid",
-        "products_to_show": 12,
-        "grid-desktop": 4,
+        "products_to_show": 4,
+        "grid-desktop": 2,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -555,8 +523,8 @@
         "button_jefTfE": {
           "type": "button",
           "settings": {
-            "button_link": "shopify://collections/black-friday-shop-all",
-            "button_text": "Browse All Black Friday",
+            "button_link": "shopify://pages/our-craft",
+            "button_text": "Browse All Products",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
@@ -768,10 +736,9 @@
     }
   },
   "order": [
-    "17637632435ded8197",
     "174852555296a4f07f",
     "image_with_text_xNQTaY",
-    "slideshow_CtHbaV",
+    "image_with_text_overlay_yhifEJ",
     "video_hero_b3W7LY",
     "countdown_cFgED4",
     "rich_text_VcennU",
