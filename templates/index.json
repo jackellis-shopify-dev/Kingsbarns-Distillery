@@ -79,6 +79,72 @@
         "colors": "light"
       }
     },
+    "slideshow_NeaQyy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_FeA3a7": {
+          "type": "image",
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#E68819",
+            "button-text": "#FFFFFF",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_TJUJBz": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your \ntop earners",
+            "text": "Showcase key products or collections to maximise your profits",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#E68819",
+            "button-text": "#FFFFFF",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_FeA3a7",
+        "image_TJUJBz"
+      ],
+      "name": "t:sections.image--slideshow.presets.name",
+      "settings": {
+        "slide_transition_delay": 7,
+        "slide_navigation_style": "bars",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "desktop_height": "full_screen",
+        "mobile_height": "extra_large"
+      }
+    },
     "image_with_text_overlay_yhifEJ": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -738,6 +804,7 @@
   "order": [
     "174852555296a4f07f",
     "image_with_text_xNQTaY",
+    "slideshow_NeaQyy",
     "image_with_text_overlay_yhifEJ",
     "video_hero_b3W7LY",
     "countdown_cFgED4",
