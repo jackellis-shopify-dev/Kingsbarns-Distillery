@@ -111,19 +111,21 @@
         "image_TJUJBz": {
           "type": "image",
           "settings": {
-            "title": "Promote your \ntop earners",
-            "text": "Showcase key products or collections to maximise your profits",
-            "first_button_label": "Shop now",
+            "title": "",
+            "text": "",
+            "first_button_label": "",
             "first_button_link": "",
-            "second_button_label": "Learn more",
+            "second_button_label": "",
             "second_button_link": "",
             "buttons_style": "filled",
             "override_button_colors": false,
-            "button-background": "#E68819",
-            "button-text": "#FFFFFF",
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Subtitle_3.jpg",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 24,
             "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/Subtitle_3.jpg",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
             "mobile_text_position": "center_left",
@@ -143,8 +145,8 @@
         "slide_navigation_style": "bars",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "desktop_height": "full_screen",
-        "mobile_height": "extra_large"
+        "desktop_height": "original",
+        "mobile_height": "original"
       }
     },
     "image_with_text_overlay_yhifEJ": {
