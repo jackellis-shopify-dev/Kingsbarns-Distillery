@@ -113,8 +113,8 @@
           "settings": {
             "title": "",
             "text": "",
-            "first_button_label": "",
-            "first_button_link": "",
+            "first_button_label": "SHOP NOW",
+            "first_button_link": "shopify://products/kingsbarns-10yo-bourbon-and-str-single-malt-whisky-46-abv",
             "second_button_label": "",
             "second_button_link": "",
             "buttons_style": "filled",
