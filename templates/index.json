@@ -102,7 +102,7 @@
             "mobile_image": "shopify://shop_images/VF_Square.png",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "bottom_right",
+            "mobile_text_position": "bottom",
             "image_overlay": "#242424",
             "image_overlay_opacity": 0,
             "caption-text": "#ffffff"
@@ -175,6 +175,7 @@
         "heading_PcMULY",
         "text_iCR88n"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
         "height_desktop": "original",
