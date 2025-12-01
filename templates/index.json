@@ -508,23 +508,6 @@
     },
     "rich_text_C6Wy9h": {
       "type": "rich-text",
-      "blocks": {
-        "button_jefTfE": {
-          "type": "button",
-          "settings": {
-            "button_link": "shopify://collections/black-friday-shop-all",
-            "button_text": "Browse All Black Friday",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "button_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "button_jefTfE"
-      ],
       "settings": {
         "section_width": "narrow",
         "text_alignment_desktop": "center",
