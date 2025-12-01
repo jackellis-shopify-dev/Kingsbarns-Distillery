@@ -154,25 +154,19 @@
     "ken_burns_enabled": true,
     "content_for_index": [],
     "blocks": {
-      "1692329972272007824": {
-        "type": "shopify://apps/zepto-product-personalizer/blocks/product_personalizer_main/7411210d-7b32-4c09-9455-e129e3be4729",
+      "17646240911419608881": {
+        "type": "shopify://apps/geolocation-redirects-xapps/blocks/app-embed/99c42a40-4a88-4244-a03e-a752a0b4e07d",
         "disabled": false,
-        "settings": {}
-      },
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
-      "6174324309569838175": {
-        "type": "shopify://apps/smile-io/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-        "disabled": false,
-        "settings": {}
-      },
-      "13768625480086291342": {
-        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
-        "disabled": false,
-        "settings": {}
+        "settings": {
+          "ngr_test_mode": false,
+          "ngr_disable_widget": false,
+          "ngr_force_disable": false,
+          "ngr_auto_once": false,
+          "ngr_auto_once_type": "session",
+          "ngr_auto_bots": true,
+          "ngr_auto_foot": false,
+          "ngr_disable_overlay": false
+        }
       }
     }
   },
