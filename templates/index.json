@@ -504,6 +504,7 @@
     },
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Shop Black Friday",
         "description": "<p>Explore the top Black Friday offers from Kingsbarns, Wemyss, and Darnleys.</p>",
