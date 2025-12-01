@@ -261,9 +261,9 @@
         "template--15051013783622__06b36118-35e6-4312-b5b2-099a0ddc5aa6-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "black-friday-kingsbarns-core",
+            "collection": "kingsbarns-core-collection",
             "collection_img": "shopify://shop_images/Untitled_design_1.jpg",
-            "subheading": "Explore Black Friday",
+            "subheading": "Shop",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
@@ -273,9 +273,9 @@
         "featured_collection_9r8PGU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "black-friday-wemyss-core",
+            "collection": "wemyss-malts-collection",
             "collection_img": "shopify://shop_images/Untitled_design_2.jpg",
-            "subheading": "Explore Black Friday",
+            "subheading": "Shop",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
@@ -285,9 +285,9 @@
         "template--15051013783622__06b36118-35e6-4312-b5b2-099a0ddc5aa6-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "black-friday-darnleys-core",
+            "collection": "darnleys-gin",
             "collection_img": "shopify://shop_images/Social_sized_logo.png",
-            "subheading": "Explore Black Friday",
+            "subheading": "Shop",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
@@ -318,23 +318,6 @@
     },
     "rich_text_4eMNLt": {
       "type": "rich-text",
-      "blocks": {
-        "button_XpmQPh": {
-          "type": "button",
-          "settings": {
-            "button_link": "shopify://collections/black-friday-shop-all",
-            "button_text": "Browse all Black Friday",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "button_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "button_XpmQPh"
-      ],
       "settings": {
         "section_width": "narrow",
         "text_alignment_desktop": "center",
