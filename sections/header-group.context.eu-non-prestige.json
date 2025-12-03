@@ -12,5 +12,16 @@
   "context": {
     "market": "eu-non-prestige"
   },
-  "sections": {}
+  "sections": {
+    "text_adverts_JDPK8T": {
+      "settings": {},
+      "blocks": {
+        "text_EnJ9VU": {
+          "settings": {
+            "subheading": "Test Free delivery on online UK orders over £60, discount applied automatically at checkout"
+          }
+        }
+      }
+    }
+  }
 }
