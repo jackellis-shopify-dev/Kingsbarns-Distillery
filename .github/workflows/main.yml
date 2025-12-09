@@ -16,10 +16,9 @@ jobs:
     strategy:
       matrix:
         branch:
-          - "store/uk"
+          - "store/main"
           - "store/us"
           - "store/eu"
-          - "store/row"
 
     steps:
       - name: Checkout
