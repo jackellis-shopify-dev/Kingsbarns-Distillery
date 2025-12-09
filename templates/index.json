@@ -640,6 +640,7 @@
         "text_wUtGfW",
         "button_GH64RK"
       ],
+      "disabled": true,
       "settings": {
         "height_desktop": "550px",
         "text_position_desktop": "center",
@@ -691,6 +692,7 @@
         "navigation_link_jUEjK6": {
           "type": "navigation_link",
           "settings": {
+            "link_image": "shopify://shop_images/IWSC_gold95.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -699,6 +701,7 @@
         "navigation_link_Erbhwt": {
           "type": "navigation_link",
           "settings": {
+            "link_image": "shopify://shop_images/WWhiskiesA24-Gold.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -707,6 +710,7 @@
         "navigation_link_zmt8iG": {
           "type": "navigation_link",
           "settings": {
+            "link_image": "shopify://shop_images/iwsc2023-whisky-highball-gold-medal-lores-png_Peat_Chimney.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -715,6 +719,7 @@
         "navigation_link_Pwh3Dm": {
           "type": "navigation_link",
           "settings": {
+            "link_image": "shopify://shop_images/IWSC_silver91_-_Balcomie.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -723,6 +728,7 @@
         "navigation_link_jMKk49": {
           "type": "navigation_link",
           "settings": {
+            "link_image": "shopify://shop_images/The_Hive_2023.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
