@@ -31,6 +31,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@example.com"
+          git config merge.ours.driver true
 
       - name: Merge main into ${{ matrix.branch }}
         run: |
