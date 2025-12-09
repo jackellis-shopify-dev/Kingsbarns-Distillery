@@ -149,7 +149,6 @@
     "verification-popup--override_button_colors": true,
     "verification-popup--button_background_color": "#242424",
     "favicon": "shopify://shop_images/favicon-logo.png",
-    "klaviyo_form_id": "",
     "animations_enabled": true,
     "page_fade_enabled": true,
     "ken_burns_enabled": true,
