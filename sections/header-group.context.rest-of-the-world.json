@@ -10,20 +10,7 @@
 {
   "parent": "header-group.json",
   "context": {
-    "market": "eu-non-prestige"
+    "market": "rest-of-the-world"
   },
-  "sections": {
-    "text_adverts_JDPK8T": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {
-        "text_EnJ9VU": {
-          "disabled": true,
-          "settings": {
-            "subheading": "Free delivery on online UK orders over £60, discount applied automatically at checkout"
-          }
-        }
-      }
-    }
-  }
+  "sections": {}
 }
