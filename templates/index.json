@@ -327,9 +327,9 @@
         },
         "featured_collection_9r8PGU": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": "wemyss-malts-collection",
+            "collection": "wemyss-malts",
+            "collection_img": "shopify://shop_images/Untitled_design_2.jpg",
             "subheading": "Explore",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
@@ -363,7 +363,7 @@
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section_padding_top": 0,
-        "section_padding_bottom": 0,
+        "section_padding_bottom": 60,
         "items-per-row": 3,
         "remove-spacing": false,
         "section-width": "content",
@@ -528,6 +528,7 @@
     },
     "video_hero_nYcFgU": {
       "type": "video-hero",
+      "disabled": true,
       "settings": {
         "url": "",
         "video_alt_text": "",
@@ -555,7 +556,7 @@
       "settings": {
         "title": "Our Product Range",
         "description": "<p>Browse our portfolio of award-winning single malts, blended malts, and natural gins.</p>",
-        "collection": "frontpage",
+        "collection": "best-sellers",
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
@@ -576,7 +577,7 @@
         "button_jefTfE": {
           "type": "button",
           "settings": {
-            "button_link": "shopify://pages/our-craft",
+            "button_link": "shopify://collections/all",
             "button_text": "Browse All Products",
             "buttons_style": "filled",
             "override_button_colors": false,
