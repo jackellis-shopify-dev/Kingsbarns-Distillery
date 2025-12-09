@@ -1586,8 +1586,7 @@
       {
         "type": "text",
         "id": "klaviyo_form_id",
-        "label": "Klaviyo form ID",
-        "default": ""
+        "label": "Klaviyo form ID"
       }
     ]
   },
