@@ -129,6 +129,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- Header hook for plugins ================================================== -->
   {{ content_for_header }}
 
+  {% if settings.klaviyo_script != blank %}
+    {{ settings.klaviyo_script }}
+  {% endif %}
+
   <script defer src="{{ 'eventBus.js' | asset_url }}"></script>
 
   <script type="text/javascript">
@@ -178,6 +182,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   	<noscript>{{ 'animate.min.css' | asset_url | stylesheet_tag }}</noscript>
   {% endif %}
   <noscript>{{ 'custom.css' | asset_url | stylesheet_tag }}</noscript>
+
+  {% if settings.klaviyo_script != blank and settings.klaviyo_form_id != blank %}
+    <div class="{{ settings.klaviyo_form_id }}"></div>
+  {% endif %}
 
   {% comment %} Cart {% endcomment %}
   <safe-load-scripts class="hidden">
