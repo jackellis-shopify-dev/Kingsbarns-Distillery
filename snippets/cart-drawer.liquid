@@ -306,6 +306,9 @@
             <div class="cart-drawer__empty-btn-container">
               {% if settings.empty_cart_collections != blank %}
                 {% for empty_cart_collection in settings.empty_cart_collections %}
+                  {%- comment %}<locksmith:7f95>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: empty_cart_collection, subject_parent: settings, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:7f95>{% endcomment -%}
                   <a class="btn dynamic-section-button--drawer-filled cart-drawer__empty-btn" href="{{ empty_cart_collection.url }}">{{ empty_cart_collection.title }}</a>
                 {% endfor %}
               {% else %}
@@ -338,6 +341,9 @@
                       {% if recommendations.performed? and recommendations.products_count > 0 %}
                         <div class="cart-drawer__recommendations-grid">
                           {% for recommendation in recommendations.products %}
+                            {%- comment %}<locksmith:9d34>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:9d34>{% endcomment -%}
                             {% render 'product-card-basic' with card_product: recommendation, show_vendor: settings.cart_vendor_enable %}
                           {% endfor %}
                         </div>
@@ -346,6 +352,9 @@
                   {% else %}
                     <div class="cart-drawer__recommendations-grid cart-drawer__recommendations-grid--empty">
                       {% for recommendation in settings.empty_cart_products.products %}
+                        {%- comment %}<locksmith:694e>{% endcomment -%}
+                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: settings.empty_cart_products, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                        {%- comment %}</locksmith:694e>{% endcomment -%}
                         {% render 'product-card-basic' with card_product: recommendation, show_vendor: settings.cart_vendor_enable %}
                       {% endfor %}
                     </div>

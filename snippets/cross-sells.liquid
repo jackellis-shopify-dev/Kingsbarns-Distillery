@@ -18,7 +18,13 @@
     {%- if cross_sells_products != blank -%}
       <div class="cross-sells-products{% if cross_sells_products.size > 3 %} scrollable{% endif %}">
         {% if cross_sells_products.size > 3 %}<scrollable-container class="top">{% endif %}
+          {%- comment %}<locksmith:2990>{% endcomment -%}
+            {%- assign locksmith_8f38_forloop__size = 0 %}{%- for cross_sells_product in cross_sells_products -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: cross_sells_product, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_8f38_forloop__size = locksmith_8f38_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_8f38_forloop__index = nil -%}
+          {%- comment %}</locksmith:2990>{% endcomment -%}
           {%- for cross_sells_product in cross_sells_products -%}
+            {%- comment %}<locksmith:a538>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: cross_sells_product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_8f38_forloop__index == nil %}{% assign locksmith_8f38_forloop__index = 1 %}{% assign locksmith_8f38_forloop__index0 = 0 %}{% else %}{% assign locksmith_8f38_forloop__index = locksmith_8f38_forloop__index | plus: 1 %}{% assign locksmith_8f38_forloop__index0 = locksmith_8f38_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_8f38_forloop__index == 1 %}{% assign locksmith_8f38_forloop__first = true %}{% else %}{% assign locksmith_8f38_forloop__first = false %}{% endif %}{% if locksmith_8f38_forloop__index == locksmith_8f38_forloop__size %}{% assign locksmith_8f38_forloop__last = true %}{% else %}{% assign locksmith_8f38_forloop__last = false %}{% endif %}{% assign locksmith_8f38_forloop__rindex = locksmith_8f38_forloop__size | minus: locksmith_8f38_forloop__index | minus: 1 %}{% assign locksmith_8f38_forloop__rindex0 = locksmith_8f38_forloop__size | minus: locksmith_8f38_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:a538>{% endcomment -%}
             {%- unless cross_sells_product == blank -%}
               {%- assign preorder_product = false -%}
               {%- if all_products[cross_sells_product].tags contains 'preorder' -%}
@@ -28,13 +34,26 @@
                 assign preorder_string = 'products.product.preorder' | t | downcase
                 assign preorder_product = false
                 for tag in all_products[cross_sells_product].tags
+                  comment
+                    <locksmith:8103> Code added automatically by the Locksmith app. Do not modify or remove.
+                  endcomment
+                  capture var
+                    render 'locksmith-variables', scope: 'subject', subject: tag, subject_parent: all_products[cross_sells_product], variable: 'transparent'
+                  endcapture
+                  if var == "true"
+                  else
+                    continue
+                  endif
+                  comment
+                    </locksmith:8103> End Locksmith code block.
+                  endcomment
                   assign lowecase_tag = tag | downcase
                   if lowecase_tag contains preorder_string
                     assign preorder_product = true
                   endif
                 endfor
               %}
-              {% render 'product-cross-sell', product_id: cross_sells_product, index: forloop.index0, preorder_product: preorder_product %}
+              {% render 'product-cross-sell', product_id: cross_sells_product, index: locksmith_8f38_forloop__index0, preorder_product: preorder_product %}
             {%- endunless -%}
           {%- endfor -%}
         {% if cross_sells_products.size > 3 %}</scrollable-container>{% endif %}

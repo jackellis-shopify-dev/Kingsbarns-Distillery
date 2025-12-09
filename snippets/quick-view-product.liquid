@@ -278,6 +278,19 @@
                             <div class="swatch-items-wrapper">
                               {% liquid
                                 for linked_product in block.settings.linked_products
+                                  comment
+                                    <locksmith:66b4> Code added automatically by the Locksmith app. Do not modify or remove.
+                                  endcomment
+                                  capture var
+                                    render 'locksmith-variables', scope: 'subject', subject: linked_product, subject_parent: block.settings, variable: 'transparent'
+                                  endcapture
+                                  if var == "true"
+                                  else
+                                    continue
+                                  endif
+                                  comment
+                                    </locksmith:66b4> End Locksmith code block.
+                                  endcomment
                                   assign  escaped_linked_product_variant = linked_product.title | split: ' - ' | last | escape
                                   if linked_product.id == product.id
                                     assign checked = true
@@ -392,8 +405,14 @@
                         {% if product.collections.size > 0 %}
                           <div class="product__meta--tagss nav-link-animated--custom">
                             <span><strong>{{ 'products.product.category' | t }}:</strong> </span>
+                            {%- comment %}<locksmith:0989>{% endcomment -%}
+                              {%- assign locksmith_7089_forloop__size = 0 %}{% for collection in product.collections %}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_7089_forloop__size = locksmith_7089_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_7089_forloop__index = nil -%}
+                            {%- comment %}</locksmith:0989>{% endcomment -%}
                             {% for collection in product.collections %}
-                              <a class="animated-link--item" href="{{ collection.url }}"><span>{{ collection.title }}</span></a>{% if forloop.last == false %}, {% endif %}
+                              {%- comment %}<locksmith:196c>{% endcomment -%}
+                                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_7089_forloop__index == nil %}{% assign locksmith_7089_forloop__index = 1 %}{% assign locksmith_7089_forloop__index0 = 0 %}{% else %}{% assign locksmith_7089_forloop__index = locksmith_7089_forloop__index | plus: 1 %}{% assign locksmith_7089_forloop__index0 = locksmith_7089_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_7089_forloop__index == 1 %}{% assign locksmith_7089_forloop__first = true %}{% else %}{% assign locksmith_7089_forloop__first = false %}{% endif %}{% if locksmith_7089_forloop__index == locksmith_7089_forloop__size %}{% assign locksmith_7089_forloop__last = true %}{% else %}{% assign locksmith_7089_forloop__last = false %}{% endif %}{% assign locksmith_7089_forloop__rindex = locksmith_7089_forloop__size | minus: locksmith_7089_forloop__index | minus: 1 %}{% assign locksmith_7089_forloop__rindex0 = locksmith_7089_forloop__size | minus: locksmith_7089_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                              {%- comment %}</locksmith:196c>{% endcomment -%}
+                              <a class="animated-link--item" href="{{ collection.url }}"><span>{{ collection.title }}</span></a>{% if locksmith_7089_forloop__last == false %}, {% endif %}
                             {% endfor %}
                           </div>
                         {% endif %}

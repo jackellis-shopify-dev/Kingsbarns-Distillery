@@ -46,11 +46,17 @@
   {% if link.links.size > 0 %}
     <div class="mega-menu--links">
       {% for sub_link in link.links %}
+        {%- comment %}<locksmith:3e4b>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:3e4b>{% endcomment -%}
         <li class="dropdown-submenu nav-link-animated--custom" aria-haspopup="true">
           <div class="inner">
             <p class="h4 mega-menu-link--title"><a class="animated-link--item" href="{{ sub_link.url }}">{{ sub_link.title | escape }}</a></p>
             <ul class="menu-link">
               {% for sub_sub_link in sub_link.links %}
+                {%- comment %}<locksmith:a48d>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:a48d>{% endcomment -%}
                 <li>
                   <a class="animated-link--item" href="{{ sub_sub_link.url }}">{{ sub_sub_link.title | escape }}</a>
                 </li>

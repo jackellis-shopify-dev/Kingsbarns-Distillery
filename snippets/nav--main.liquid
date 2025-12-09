@@ -4,6 +4,10 @@
 
 {% for link in menu.links %}
 
+  {%- comment %}<locksmith:0bcc>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+  {%- comment %}</locksmith:0bcc>{% endcomment -%}
+
   {% if link.links != blank %}
     {% assign link-title = link.title | strip | downcase %}
     {% assign is-mega-menu = false %}
@@ -30,6 +34,19 @@
       {% liquid 
         assign has_subdropdowns = false
         for sub_link in link.links
+          comment
+            <locksmith:c209> Code added automatically by the Locksmith app. Do not modify or remove.
+          endcomment
+          capture var
+            render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent'
+          endcapture
+          if var == "true"
+          else
+            continue
+          endif
+          comment
+            </locksmith:c209> End Locksmith code block.
+          endcomment
           if sub_link.levels > 0
             assign has_subdropdowns = true
           endif
@@ -48,6 +65,9 @@
 
         {% else %}
           {% for sub_link in link.links %}
+          {%- comment %}<locksmith:cc1b>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:cc1b>{% endcomment -%}
           {% if sub_link.levels > 0 %}
               <li class="site-nav--has-dropdown" aria-haspopup="true">
                 <a href="{{ sub_link.url }}" class="site-nav__link">
@@ -62,6 +82,9 @@
                 </a>
                 <ul class="site-nav__subdropdown">
                   {% for sub_sub_link in sub_link.links %}
+                    {%- comment %}<locksmith:69b0>{% endcomment -%}
+                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                    {%- comment %}</locksmith:69b0>{% endcomment -%}
                     <li>
                   <a href="{{ sub_sub_link.url }}" class="site-nav__link">
                     <div class="site-nav--link-wrapper">
