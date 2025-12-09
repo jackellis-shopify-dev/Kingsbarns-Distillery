@@ -1575,23 +1575,6 @@
     ]
   },
   {
-    "name": "Klaviyo",
-    "settings": [
-      {
-        "type": "text",
-        "id": "klaviyo_script",
-        "label": "Klaviyo script",
-        "default": "<script type='text/javascript' async='' src='https://static.klaviyo.com/onsite/js/UJjaq4/klaviyo.js'></script>"
-      },
-      {
-        "type": "text",
-        "id": "klaviyo_form_id",
-        "label": "Klaviyo form ID",
-        "default": ""
-      }
-    ]
-  },
-  {
     "name": "t:settings_schema.Animations.name",
     "settings": [
       {
