@@ -1,0 +1,2 @@
+# Keep store-specific JSON templates when merging main into store branches
+templates/*.json merge=ours
