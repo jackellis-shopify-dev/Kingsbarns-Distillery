@@ -98,6 +98,7 @@
       "blocks": {
         "b9761f95-e4d2-4de1-82e6-ae6f7d56a8f7": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "Whisky",
             "image_1_aspect_ratio": "square",
