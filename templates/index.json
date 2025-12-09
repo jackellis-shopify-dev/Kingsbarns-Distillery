@@ -22,12 +22,10 @@
             "carousel_height_mobile": 350,
             "show_dots": true,
             "show_arrows": true,
-            "image_1": "shopify://shop_images/AdobeStock_99626486.jpg",
             "heading_1": "THE SINGLE MALT OF ST ANDREWS",
             "text_1": "Our distillery is based at Kingsbarns, St Andrews on Scotland’s east coast. Our spirits are crafted just a stone’s throw from this historic town — a place renowned worldwide for its rich heritage, academic excellence, and status as the Home of Golf.",
             "button_text_1": "Shop Now",
             "button_link_1": "shopify://collections/kingsbarns-core-collection",
-            "image_2": "shopify://shop_images/Copy_of_Copy_of_THE_SINGLE_MALT_OF_ST_ANDREWS_305_x_150_mm_24.5_x_15_cm_76.25_x_37.5_cm_Presentation.jpg",
             "heading_2": "",
             "text_2": "",
             "button_text_2": "",
@@ -61,7 +59,6 @@
       "disabled": true,
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/AdobeStock_99626486.jpg",
         "title": "THE SINGLE MALT OF ST ANDREWS",
         "text": "<p><strong><br/>Our distillery is based at Kingsbarns, St Andrews on Scotland’s east coast. Our spirits are crafted just a stone’s throw from this historic town — a place renowned worldwide for its rich heritage, academic excellence, and status as the Home of Golf.<br/><br/></strong></p>",
         "button_label": "",
@@ -95,11 +92,9 @@
             "override_button_colors": false,
             "button-background": "#e68819",
             "button-text": "#ffffff",
-            "image": "shopify://shop_images/WEB_SHOPIFY_1800X1000_0f403b28-4be7-4eb7-a44a-77776220f461.png",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 24,
             "text_position": "bottom_right",
-            "mobile_image": "shopify://shop_images/VF_Square.png",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
             "mobile_text_position": "bottom",
@@ -121,11 +116,9 @@
             "override_button_colors": false,
             "button-background": "#e68819",
             "button-text": "#ffffff",
-            "image": "shopify://shop_images/Kingsbarns_ChristmasEngraving_WebsiteBanner_1920x1080_144_06DEC25.jpg",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 24,
             "text_position": "bottom_right",
-            "mobile_image": "shopify://shop_images/Kingsbarns_ChristmasEngraving_WebsiteBanner_1920x1080_144_06DEC25.jpg",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
             "mobile_text_position": "bottom",
@@ -177,12 +170,10 @@
       ],
       "disabled": true,
       "settings": {
-        "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
         "height_desktop": "original",
         "text_position_desktop": "bottom_center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 20,
-        "image_mobile": "shopify://shop_images/Subtitle_3.jpg",
         "height_mobile": "original",
         "text_position_mobile": "bottom_center",
         "text_alignment_mobile": "center",
@@ -272,7 +263,6 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/PXL_20211118_155955489.jpg",
         "height_desktop": "450px",
         "section_margin_top": 0,
         "section_margin_bottom": 0,
@@ -327,7 +317,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "kingsbarns-core-collection",
-            "collection_img": "shopify://shop_images/Untitled_design_1.jpg",
+            "collection_img": "shopify://shop_images/Kingsbarns_Logo_Version_V1_2025_02.webp",
             "subheading": "Explore",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
@@ -337,9 +327,9 @@
         },
         "featured_collection_9r8PGU": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "wemyss-malts-collection",
-            "collection_img": "shopify://shop_images/Untitled_design_2.jpg",
             "subheading": "Explore",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
@@ -413,7 +403,6 @@
       "type": "image-with-text",
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/E-Comm_Valentine_s_Image_22.01.2024_V2.jpg",
         "title": "Valentine’s Day Special at Kingsbarns Distillery!",
         "text": "<p>All Kingsbarns Tours on <strong>February 14th</strong> will be upgraded to a <strong>special Valentine’s Chocolate Pairing Tour</strong> – at no extra cost! </p><p>Whether you're treating your special someone or enjoying a day out with friends, this is a sweet way to celebrate. Simply book a Kingsbarns Tour for that date and let the love (and chocolate) flow! </p><p><br/>Limited availability – don’t miss out!</p>",
         "button_label": "Book Now",
@@ -437,8 +426,6 @@
         "image_mfeh6V": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/distillery_reserve_1080_x_1080_2.png",
-            "mobile_image": "shopify://shop_images/distillery_reserve_1080_x_1080_2.png",
             "heading": "Distillery Reserve 2024",
             "content": "<p>Add copy</p>",
             "heading_size": 60,
@@ -457,7 +444,6 @@
         "image_BYHMC3": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/DARNLEYS_GIN_NS_4901_The_NeukSq.jpg",
             "heading": "Darnley's Gin: The Neuk",
             "content": "<p>Add copy</p>",
             "heading_size": 30,
@@ -476,7 +462,6 @@
         "image_dMc4mx": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Kingsbarns_Distillery_21.1.23__-_93.jpg",
             "heading": "Become A Founder",
             "content": "<p>Add copy</p>",
             "heading_size": 30,
@@ -495,7 +480,6 @@
         "image_BKBDeY": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/50.png",
             "heading": "",
             "content": "<p>Add copy</p>",
             "heading_size": 30,
@@ -656,12 +640,10 @@
         "button_GH64RK"
       ],
       "settings": {
-        "image_desktop": "shopify://shop_images/Darnley_s_Perfect_Serve_landscape_2.jpg",
         "height_desktop": "550px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 50,
-        "image_mobile": "shopify://shop_images/Darnley_s_Spiced_-_Negroni_warm_background_5_low.jpg",
         "height_mobile": "original",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
@@ -708,7 +690,6 @@
         "navigation_link_jUEjK6": {
           "type": "navigation_link",
           "settings": {
-            "link_image": "shopify://shop_images/IWSC_gold95.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -717,7 +698,6 @@
         "navigation_link_Erbhwt": {
           "type": "navigation_link",
           "settings": {
-            "link_image": "shopify://shop_images/WWhiskiesA24-Gold.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -726,7 +706,6 @@
         "navigation_link_zmt8iG": {
           "type": "navigation_link",
           "settings": {
-            "link_image": "shopify://shop_images/iwsc2023-whisky-highball-gold-medal-lores-png_Peat_Chimney.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -735,7 +714,6 @@
         "navigation_link_Pwh3Dm": {
           "type": "navigation_link",
           "settings": {
-            "link_image": "shopify://shop_images/IWSC_silver91_-_Balcomie.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
@@ -744,7 +722,6 @@
         "navigation_link_jMKk49": {
           "type": "navigation_link",
           "settings": {
-            "link_image": "shopify://shop_images/The_Hive_2023.png",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)"
