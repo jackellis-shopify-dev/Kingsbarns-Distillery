@@ -29,11 +29,17 @@
               {% if menu.links.size > 0 %}
                 <ul class="footer-content nav-link-animated">
                   {% for link in menu.links %}
+                    {%- comment %}<locksmith:4151>{% endcomment -%}
+                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                    {%- comment %}</locksmith:4151>{% endcomment -%}
                     {% if link.links != blank %}
                       <li>
                         <a href="{{ link.url }}" class="footer--has-dropdown-title"><span class="animated-underline">{{ link.title }}</span></a>
                         <ul class="footer--level-2">
                           {% for sub_link in link.links %}
+                            {%- comment %}<locksmith:3f8b>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:3f8b>{% endcomment -%}
                             <li><a href="{{ sub_link.url }}"><span class="animated-underline">{{ sub_link.title | escape }}</span></a></li>
                           {% endfor %}
                         </ul>

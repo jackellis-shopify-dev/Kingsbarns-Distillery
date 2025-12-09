@@ -51,6 +51,9 @@
           <nav class="swiper navigation-banner__swiper">
             <div class="swiper-wrapper">
               {% for link in list %}
+                {%- comment %}<locksmith:b6fc>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:b6fc>{% endcomment -%}
                 <div class="swiper-slide{% if section.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}">
                   {% render 'dynamic-section-button' with
                     id: section.id,
@@ -71,6 +74,9 @@
         <nav style="--grid-gap: {{ grid_gap }}px; --grid-alignment: {{ section.settings.navigation_position }}">
           <ul class="navigation-banner__grid-list">
             {% for link in list %}
+            {%- comment %}<locksmith:7323>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:7323>{% endcomment -%}
             <li class="{% if section.settings.buttons_style == 'underlined' %}text-link-animated{% endif %}">
                 {% render 'dynamic-section-button' with
                   id: section.id,

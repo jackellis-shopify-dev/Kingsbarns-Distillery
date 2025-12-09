@@ -32,14 +32,23 @@
                 {% assign menu = linklists[block.settings.menu] %}
                 <div class="sidebar-section page--sidebar-menu nav-link-animated--custom" {{ block.shopify_attributes }}>
                   {% for link in menu.links %}
+                    {%- comment %}<locksmith:7b73>{% endcomment -%}
+                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                    {%- comment %}</locksmith:7b73>{% endcomment -%}
                     {% if link.links != blank %}
                       <li>
                         <a href="{{ link.url }}" class="sidebar-menu--has-dropdown-title animated-link--item">{{ link.title }}</a>
                         <ul class="sidebar-menu--level-2">
                           {% for sub_link in link.links %}
+                              {%- comment %}<locksmith:0a0a>{% endcomment -%}
+                                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                              {%- comment %}</locksmith:0a0a>{% endcomment -%}
                               <li>- <a class="animated-link--item" href="{{ sub_link.url }}">{{ sub_link.title | escape }}</a></li>
                                 <ul class="sidebar-menu--level-3">
                                 {% for sub_sub_link in sub_link.links %}
+                                    {%- comment %}<locksmith:9b24>{% endcomment -%}
+                                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                    {%- comment %}</locksmith:9b24>{% endcomment -%}
                                     <li>- <a class="animated-link--item" href="{{ sub_sub_link.url }}">{{ sub_sub_link.title | escape }}</a></li>
                                 {% endfor %}
                               </ul>

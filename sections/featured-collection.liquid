@@ -98,6 +98,10 @@
         {%- endif -%}
           {% for product in collection.products limit: product_limit %}
             
+            {%- comment %}<locksmith:8388>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:8388>{% endcomment -%}
+            
             {% comment %}
               Set the default grid_item_width if no variable is set
             {% endcomment %}

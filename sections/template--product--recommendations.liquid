@@ -102,6 +102,9 @@
             {% comment %} Render grid (if not preview mode) {% endcomment %}
             {% unless request.visual_preview_mode %}
               {%- for product in recommendations.products -%}
+                {%- comment %}<locksmith:5287>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:5287>{% endcomment -%}
                 {%- unless grid_item_width -%}
                   {%- assign grid_item_width = 'large--one-third medium--one-half' -%}
                 {%- endunless -%}

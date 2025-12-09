@@ -59,6 +59,9 @@
       <div class="collection-grid collection-grid--items-{{ items-per-row }}{% if section.settings.remove-spacing %} remove-spacing expand-grid{% else %} keep-spacing{% endif %}">
 
         {% for block in section.blocks %}
+          {%- comment %}<locksmith:f88e>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block.settings.collection, subject_parent: section, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:f88e>{% endcomment -%}
           <style>
             .section--{{ section.id }} .block-section--{{ block.id }} .grid-item-details--background-gradient,
             .section--{{ section.id }} .block-section--{{ block.id }} .hover-outer .hover-inner::before {

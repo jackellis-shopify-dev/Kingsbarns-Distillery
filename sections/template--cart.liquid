@@ -339,6 +339,9 @@
         <div class="cart--empty-btn-container">
           {% if settings.empty_cart_collections != blank %}
             {% for empty_cart_collection in settings.empty_cart_collections %}
+              {%- comment %}<locksmith:b447>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: empty_cart_collection, subject_parent: settings, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:b447>{% endcomment -%}
               <a class="btn cart--empty-btn" href="{{ empty_cart_collection.url }}">{{ empty_cart_collection.title }}</a>
             {% endfor %}
           {% else %}
@@ -397,6 +400,9 @@
               >
                 <div class="swiper-wrapper">
                   {% for recommendation in cart_recommendations %}
+                    {%- comment %}<locksmith:fce2>{% endcomment -%}
+                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                    {%- comment %}</locksmith:fce2>{% endcomment -%}
                     <div class="grid__item large--one-quarter medium--one-third small--one-half swiper-slide">
                       {% render 'grid-view-item', product: recommendation, collection: settings.empty_cart_products, enable_badges: settings.show_badges, grid_count_desktop: 4, grid_count_mobile: 2 %}
                     </div>

@@ -176,6 +176,9 @@ Testing Cypress integration
       <ul class="mobile-nav mobile-nav--main">
         {% assign menu = linklists[section.settings.main_linklist] %}
         {% for link in menu.links %}
+          {%- comment %}<locksmith:3c3d>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:3c3d>{% endcomment -%}
           {% liquid 
             assign link-title = link.title | strip | downcase
             assign is-mega-menu = false
@@ -215,6 +218,9 @@ Testing Cypress integration
               </div>
               <ul class="mobile-nav__sublist">
                 {% for sub_link in link.links %}
+                  {%- comment %}<locksmith:cf70>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:cf70>{% endcomment -%}
                   {% if sub_link.levels > 0 %}
                     <li class="mobile-nav__item {% if sub_link.active %} mobile-nav__item--active{% endif %}">
                       <div class="mobile-nav__has-sublist">
@@ -232,6 +238,9 @@ Testing Cypress integration
                       </div>
                       <ul class="mobile-nav__sublist">
                         {% for sub_sub_link in sub_link.links %}
+                          {%- comment %}<locksmith:aa1e>{% endcomment -%}
+                            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                          {%- comment %}</locksmith:aa1e>{% endcomment -%}
                           <li class="mobile-nav__item">
                             <a href="{{ sub_sub_link.url }}" class="mobile-nav__link">{{ sub_sub_link.title | escape }}</a>
                           </li>
