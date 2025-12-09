@@ -12,5 +12,17 @@
   "context": {
     "market": "rest-of-the-world"
   },
-  "sections": {}
+  "sections": {
+    "slideshow_NeaQyy": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "image_TJUJBz": {
+          "settings": {
+            "first_button_label": "SHOP ENGRAVABLE BOTTLES"
+          }
+        }
+      }
+    }
+  }
 }
