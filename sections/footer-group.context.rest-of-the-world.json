@@ -8,15 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "header-group.json",
+  "parent": "footer-group.json",
   "context": {
     "market": "rest-of-the-world"
   },
-  "sections": {
-    "text_adverts_JDPK8T": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }
