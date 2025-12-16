@@ -247,7 +247,7 @@
               <input type="hidden" name="sections" value="cart-drawer" />
             {% endif %}
             <button class="{{ button_classes }} quick-add-button quick-add-button-desktop" type="submit" tabindex="0" data-add-to-cart-translation-key="{{ add_to_cart_translation_key }}">
-              {{ add_to_cart_text }}
+              {{ 'products.product.view_options' | t }}
             </button>
           {% endform %}
         {% else %}

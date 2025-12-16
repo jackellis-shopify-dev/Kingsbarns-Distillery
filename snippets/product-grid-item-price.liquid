@@ -62,11 +62,22 @@
 
   if settings.show_currency_code
     assign target_price = target.price | money_with_currency
+    assign target_price_max = target.price_max | money_with_currency
     assign target_compare_at_price = target.compare_at_price | money_with_currency
+    assign price_min = price_product.price_min | money_with_currency
+    assign price_max = price_product.price_max | money_with_currency
+    assign compare_at_price_min = price_product.compare_at_price_min | money_with_currency
+    assign compare_at_price_max = price_product.compare_at_price_max | money_with_currency
   else
     assign target_price = target.price | money | replace: ' ', '&nbsp;'
+    assign target_price_max = target.price_max | money | replace: ' ', '&nbsp;'
     assign target_compare_at_price = target.compare_at_price | money | replace: ' ', '&nbsp;'
+    assign price_min = price_product.price_min | money | replace: ' ', '&nbsp;'
+    assign price_max = price_product.price_max | money | replace: ' ', '&nbsp;'
+    assign compare_at_price_min = price_product.compare_at_price_min | money | replace: ' ', '&nbsp;'
+    assign compare_at_price_max = price_product.compare_at_price_max | money | replace: ' ', '&nbsp;'
   endif
+
 %}
 
 {% comment %}
@@ -95,19 +106,47 @@
 <a href="{{ price_product.url | within: collection }}" data-product-id="{{ price_product.id }}" tabindex="-1">
     {% comment %} On sale {% endcomment %}
     <div class="product-price--sale{% unless on_sale %} hidden{% endunless %}">
-      {% if price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
+      {% if price_product.price_varies and settings.when_card_price_varies == 'show_min_and_max' %}
+        <span class="money price-line-through sale-price price--compare-at-price">
+          <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+          {{- compare_at_price_min -}}
+          {% if price_product.compare_at_price_max > price_product.compare_at_price_min %}
+            &nbsp;-&nbsp;{{ compare_at_price_max }}
+          {% endif %}
+        </span>
+        <span class="money price--sale-price">
+          {{- price_min -}}
+          {% if price_product.price_max > price_product.price_min %}
+            &nbsp;-&nbsp;{{ price_max }}
+          {% endif %}
+        </span>
+      {% elsif price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
           {{ from_text }}
       {% endif %}
-      {{ product_compare_at_price }}
-      {{ product_sale_price }}
+      {% unless show_min_and_max %}
+        {{ product_compare_at_price }}
+        {{ product_sale_price }}
+      {% endunless %}
     </div>
   
     {% comment %} Regular {% endcomment %}
     <div class="product-price--regular{% if on_sale %} hidden{% endif %}">
-        {% if price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
-          {{ from_text }}
+        {% if price_product.price_varies and settings.when_card_price_varies == 'show_min_and_max' %}
+          <span class="money price--regular-price">
+            {{- price_min -}}
+            {% if price_product.price_max > price_product.price_min %}
+              &nbsp;-&nbsp;{{ price_max }}
+            {% endif %}
+          </span>
+        {% else %}
+          {% if price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
+            {{ from_text }}
+          {% endif %}
+          {{ product_price }}
+           {% if price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
+            {{ target_price_max }}
+          {% endif %}
         {% endif %}
-        {{ product_price }}
     </div>
 
   {% assign first_variant = price_product.variants[0] %}

@@ -80,7 +80,7 @@
     "product_card_max_lines": 0,
     "show_product_card_price": true,
     "type_card_price_font": "body",
-    "when_card_price_varies": "show_from_price",
+    "when_card_price_varies": "show_min_and_max",
     "show_product_rating": false,
     "show_rating_as": "average_rating",
     "star_size": 16,

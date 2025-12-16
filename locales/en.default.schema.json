@@ -182,7 +182,8 @@
             "label": "When price varies...",
             "options": {
               "show_from_price": "Show 'from' price",
-              "show_max_price": "Show max price"
+              "show_max_price": "Show max price",
+               "show_min_max_price": "Show minimum and max price"
             }
           }
         },

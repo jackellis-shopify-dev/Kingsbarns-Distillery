@@ -855,6 +855,10 @@
           {
             "value": "show_max_price",
             "label": "t:settings_schema.Product_card.settings.price.when_price_varies.options.show_max_price"
+          },
+          {
+            "value": "show_min_and_max",
+            "label": "t:settings_schema.Product_card.settings.price.when_price_varies.options.show_min_max_price"
           }
         ],
         "default": "show_from_price"
