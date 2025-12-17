@@ -88,7 +88,7 @@
             "title": "Last orders for \nChristmas delivery",
             "text": "Order by 12pm tomorrow, 18 December, to ensure delivery in time for Christmas",
             "first_button_label": "Shop Gifting Range",
-            "first_button_link": "",
+            "first_button_link": "shopify://collections/all-gifting",
             "second_button_label": "",
             "second_button_link": "",
             "buttons_style": "filled",
