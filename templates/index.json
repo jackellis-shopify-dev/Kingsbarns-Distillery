@@ -82,6 +82,31 @@
     "slideshow_NeaQyy": {
       "type": "slideshow",
       "blocks": {
+        "image_63jdLT": {
+          "type": "image",
+          "settings": {
+            "title": "Last orders for \nChristmas delivery",
+            "text": "Order by 12pm tomorrow, 18 December, to ensure delivery in time for Christmas",
+            "first_button_label": "Shop Gifting Range",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/SHOPIFY_DESKTOP_BF_b7979959-e077-4ec0-940b-785671a0912f.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
         "image_FeA3a7": {
           "type": "image",
           "settings": {
@@ -110,6 +135,7 @@
         }
       },
       "block_order": [
+        "image_63jdLT",
         "image_FeA3a7"
       ],
       "name": "t:sections.image--slideshow.presets.name",
