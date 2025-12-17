@@ -107,37 +107,10 @@
             "image_overlay_opacity": 0,
             "caption-text": "#ffffff"
           }
-        },
-        "image_TJUJBz": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "text": "",
-            "first_button_label": "SHOP NOW",
-            "first_button_link": "shopify://collections/free-engraving",
-            "second_button_label": "",
-            "second_button_link": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button-background": "#e68819",
-            "button-text": "#ffffff",
-            "image": "shopify://shop_images/Kingsbarns_ChristmasEngraving_WebsiteBanner_1920x1080_144_06DEC25.jpg",
-            "desktop-caption-heading-size": 60,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "bottom_right",
-            "mobile_image": "shopify://shop_images/Kingsbarns_ChristmasEngraving_WebsiteBanner_1920x1080_144_06DEC25.jpg",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "bottom",
-            "image_overlay": "#242424",
-            "image_overlay_opacity": 0,
-            "caption-text": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "image_FeA3a7",
-        "image_TJUJBz"
+        "image_FeA3a7"
       ],
       "name": "t:sections.image--slideshow.presets.name",
       "settings": {
