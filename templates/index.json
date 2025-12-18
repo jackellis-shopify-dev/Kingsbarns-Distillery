@@ -84,6 +84,7 @@
       "blocks": {
         "image_63jdLT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Last orders for \nChristmas delivery",
             "text": "Order by 12pm tomorrow, 18 December, to ensure delivery in time for Christmas",
