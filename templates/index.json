@@ -330,7 +330,7 @@
             "collection": "kingsbarns-core-collection",
             "collection_img": "shopify://shop_images/Untitled_design_1.jpg",
             "subheading": "Explore",
-            "overlay-btn-text": "",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -342,7 +342,7 @@
             "collection": "wemyss-malts-collection",
             "collection_img": "shopify://shop_images/Untitled_design_2.jpg",
             "subheading": "Explore",
-            "overlay-btn-text": "",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -354,7 +354,7 @@
             "collection": "darnleys-gin",
             "collection_img": "shopify://shop_images/Social_sized_logo.png",
             "subheading": "Explore",
-            "overlay-btn-text": "",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -405,7 +405,7 @@
         "section_width": "narrow",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
-        "section_padding_top": 0,
+        "section_padding_top": 60,
         "section_padding_bottom": 60,
         "colors": "white"
       }
