@@ -54,6 +54,14 @@
     "text_adverts_JDPK8T": {
       "type": "text-adverts",
       "blocks": {
+        "text_7DRFqw": {
+          "type": "text",
+          "settings": {
+            "heading": "Christmas Delivery Deadline",
+            "subheading": "Don’t miss out  — order by 12PM on the 18th December for Christmas delivery",
+            "link": ""
+          }
+        },
         "text_EnJ9VU": {
           "type": "text",
           "settings": {
@@ -69,20 +77,12 @@
             "subheading": "Option For Next Day Delivery or Free Click & Collect To Our Distillery",
             "link": ""
           }
-        },
-        "text_7DRFqw": {
-          "type": "text",
-          "settings": {
-            "heading": "EU & USA Online Shops Available",
-            "subheading": "Currently shipping to 39 states in the USA, Germany, France, the Netherlands, Belgium, Sweden and Austria",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "text_7DRFqw",
         "text_EnJ9VU",
-        "text_zJdqyK",
-        "text_7DRFqw"
+        "text_zJdqyK"
       ],
       "custom_css": [
         "* {font-size: 0.95em;}"
