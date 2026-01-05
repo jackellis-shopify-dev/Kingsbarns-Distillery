@@ -73,7 +73,7 @@
       "type": "map",
       "settings": {
         "heading": "Visit Us",
-        "address": "<p>Kingsbarns Distillery & Visitor Centre<br/>East Newhall Farm<br/>Kingsbarns<br/>KY16 8QE</p><p><br/><a href=\"tel:+44 (0) 1333 451300\" title=\"tel:+44 (0) 1333 451300\">+44 (0) 1333 451300</a><br/></p><p><br/>Mon - Sun: 9:30AM - 5:00PM<br/>Closed 25 Dec, 26th Dec, 1st Jan & 2nd Jan<br/><br/></p>",
+        "address": "<p>Kingsbarns Distillery & Visitor Centre<br/>East Newhall Farm<br/>Kingsbarns<br/>KY16 8QE</p><p><br/><a href=\"tel:+44 (0) 1333 451300\" title=\"tel:+44 (0) 1333 451300\">+44 (0) 1333 451300</a><br/></p><p><br/>Mon - Sun: 9:30am - 5:00pm<br/>Closed 25 Dec, 26th Dec, 1st Jan & 2nd Jan<br/><br/></p>",
         "map_address": "East Newhall Farm Kingsbarns KY16 8QE",
         "api_key": "AIzaSyAevPkCc5kOTjpAr9wQQGGcOdoLvap-h7g",
         "button_text": "Get directions",
