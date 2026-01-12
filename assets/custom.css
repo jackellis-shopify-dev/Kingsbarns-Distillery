@@ -615,3 +615,15 @@ body .color-scheme--light.product-section .shopify-payment-button__button--unbra
 .u-hidden {
   display: none !important;
 }
+
+/* MOBILE NAV CSS */
+
+.mobile-nav__has-sublist .mobile-nav__link {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-nav__sublist .mobile-nav__link {
+  padding-left: 0px !important;
+  font-size: var(--base-font-size) !important;
+}
