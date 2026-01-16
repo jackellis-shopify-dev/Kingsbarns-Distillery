@@ -4,7 +4,7 @@
   Do not modify this file. Any changes will be reset the next time that
   Locksmith interacts with this theme.
 
-  Last updated: Tue, 09 Dec 2025 16:18:42 +0100 (CET)
+  Last updated: Fri, 16 Jan 2026 14:48:23 +0100 (CET)
 {% endcomment -%}
 
 {%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied_content == blank%}{%capture locksmith_access_denied_content%}{%if locksmith_manual_lock%}{{content_for_layout}}{%elsif locksmith_remote_lock%}<div id="locksmith-content">
@@ -234,4 +234,4 @@
     } else {
       window.addEventListener('load', load);
     }
-  </script>{%endcapture%}{%unless request.design_mode or request.host contains ".shopifypreview.com" or request.page_type == "password"%}{%assign locksmith_content_for_layout_addenda=_7%}{%endunless%}{%if locksmith_access_denied and content_for_layout contains '<input type="hidden" name="form_type" value="customer_login" />'%}{%assign locksmith_original_template=template%}{%assign template='customers/login'%}{%endif%}
+  </script>{%endcapture%}{%unless request.design_mode or request.host contains ".shopifypreview.com" or request.page_type == "password"%}{%assign content_for_layout=content_for_layout|append:_7%}{%endunless%}{%if locksmith_access_denied and content_for_layout contains '<input type="hidden" name="form_type" value="customer_login" />'%}{%assign locksmith_original_template=template%}{%assign template='customers/login'%}{%endif%}

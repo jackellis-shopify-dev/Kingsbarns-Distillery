@@ -1,6 +1,6 @@
-{%- comment %}<locksmith:cb37>{% endcomment -%}
+{%- comment %}<locksmith:436e>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:cb37>{% endcomment -%}
+{%- comment %}</locksmith:436e>{% endcomment -%}
 
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
@@ -75,10 +75,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </title>
 
   {% if page_description %}
-    {%- comment %}<locksmith:28e3>{% endcomment -%}
+    {%- comment %}<locksmith:53a0>{% endcomment -%}
       {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
       {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-    {%- comment %}</locksmith:28e3>{% endcomment -%}
+    {%- comment %}</locksmith:53a0>{% endcomment -%}
   {% endif %}
 
   <!-- Helpers ================================================== -->
@@ -273,7 +273,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="wrapper main-content page-main--wrapper">
     {% endif %}
 
-        {{ content_for_layout }}{{ locksmith_content_for_layout_addenda }}
+        {{ content_for_layout }}
       </div>
   </div>
 
