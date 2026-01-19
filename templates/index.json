@@ -83,8 +83,8 @@
           "type": "image",
           "settings": {
             "title": "",
-            "text": "Launches in January",
-            "first_button_label": "",
+            "text": "Available now",
+            "first_button_label": "Click to find out more",
             "first_button_link": "https://www.kingsbarnsdistillery.com/collections/wemyss-malts-limited-edition/products/velvet-fig-12yo-blended-malt-70cl-46",
             "second_button_label": "",
             "second_button_link": "",
@@ -322,7 +322,7 @@
             "collection": "kingsbarns-core-collection",
             "collection_img": "shopify://shop_images/Untitled_design_1.jpg",
             "subheading": "Explore",
-            "overlay-btn-text": "",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -334,7 +334,7 @@
             "collection": "wemyss-malts",
             "collection_img": "shopify://shop_images/Untitled_design_2.jpg",
             "subheading": "Explore",
-            "overlay-btn-text": "",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -346,7 +346,7 @@
             "collection": "darnleys-gin",
             "collection_img": "shopify://shop_images/Social_sized_logo.png",
             "subheading": "Explore",
-            "overlay-btn-text": "",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
