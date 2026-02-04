@@ -54,14 +54,6 @@
     "text_adverts_JDPK8T": {
       "type": "text-adverts",
       "blocks": {
-        "text_7DRFqw": {
-          "type": "text",
-          "settings": {
-            "heading": "Christmas Delivery Deadline",
-            "subheading": "Don’t miss out  — order by 12PM on the 18th December for Christmas delivery",
-            "link": ""
-          }
-        },
         "text_EnJ9VU": {
           "type": "text",
           "settings": {
@@ -80,7 +72,6 @@
         }
       },
       "block_order": [
-        "text_7DRFqw",
         "text_EnJ9VU",
         "text_zJdqyK"
       ],
