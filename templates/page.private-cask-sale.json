@@ -376,6 +376,28 @@
         "image_overlay_opacity": 75
       }
     },
+    "image_with_text_FLh8xd": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/PRIVATE_CASK_OWNERSHIP_SQUARE.jpg",
+        "title": "Become part of our journey",
+        "text": "<ul><li>Two free distillery tours a year for up to six people.</li><li>Exclusive discount in store & online.</li><li>Samples from your cask (after 3 years) (via our Vapour Platform).</li><li>Engraved Cask Stave added to our distillery 'Owner's Wall'.</li><li>Private Consultation with Director of Production, Isabella Wemyss.</li><li>Personalised letter of authority.</li><li>10 years insurance & warehousing costs.</li><li>Access to warehousing software to track your cask</li><li>Personalised labelling options (when ready to be bottled)</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "colors": "light"
+      }
+    },
     "collage_eQ7C98": {
       "type": "collage",
       "blocks": {
@@ -1068,6 +1090,7 @@
     "aaa_doo_separator_YaYrTk",
     "custom_liquid_R4iNeE",
     "image_with_text_overlay_PbFLzf",
+    "image_with_text_FLh8xd",
     "collage_eQ7C98",
     "video_6RUVLH",
     "rich_text_QCcTmB",
