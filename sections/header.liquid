@@ -178,7 +178,7 @@ Testing Cypress integration
         {% if shop_menu != blank and shop_menu.links.size > 0 %}
           <li class="mobile-nav__item top-level" aria-haspopup="true">
             <div class="mobile-nav__has-sublist">
-              <button type="button" class="mobile-nav__link">Shop</button>
+              <a href="{{ routes.all_products_collection_url }}" class="mobile-nav__link">Shop</a>
               <div class="mobile-nav__toggle">
                 <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
                   {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
@@ -193,7 +193,7 @@ Testing Cypress integration
                 {% if sub_link.levels > 0 %}
                   <li class="mobile-nav__item">
                     <div class="mobile-nav__has-sublist">
-                      <button type="button" class="mobile-nav__link">{{ sub_link.title | escape }}</button>
+                      <a href="{{ sub_link.url }}" class="mobile-nav__link">{{ sub_link.title | escape }}</a>
                       <div class="mobile-nav__toggle">
                         <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
                           {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
@@ -208,7 +208,7 @@ Testing Cypress integration
                         {% if sub_sub_link.levels > 0 %}
                           <li class="mobile-nav__item">
                             <div class="mobile-nav__has-sublist">
-                              <button type="button" class="mobile-nav__link">{{ sub_sub_link.title | escape }}</button>
+                              <a href="{{ sub_sub_link.url }}" class="mobile-nav__link">{{ sub_sub_link.title | escape }}</a>
                               <div class="mobile-nav__toggle">
                                 <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
                                   {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
@@ -273,7 +273,7 @@ Testing Cypress integration
           {% if link.links != blank %}
             <li class="mobile-nav__item top-level{% if link.active %} mobile-nav__item--active{% endif %}{% if is-mega-menu %} mega-menu--mobile{% endif %}" aria-haspopup="true">
               <div class="mobile-nav__has-sublist">
-                <button type="button" class="mobile-nav__link">{{ link.title }}</button>
+                <a href="{{ link.url }}" class="mobile-nav__link">{{ link.title }}</a>
                 <div class="mobile-nav__toggle">
                   <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
                     {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
@@ -288,7 +288,7 @@ Testing Cypress integration
                   {% if sub_link.levels > 0 %}
                     <li class="mobile-nav__item {% if sub_link.active %} mobile-nav__item--active{% endif %}">
                       <div class="mobile-nav__has-sublist">
-                        <button type="button" class="mobile-nav__link">{{ sub_link.title | escape }}</button>
+                        <a href="{{ sub_link.url }}" class="mobile-nav__link">{{ sub_link.title | escape }}</a>
                         <div class="mobile-nav__toggle">
                           <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" name="{{ 'cart.general.see_more' | t }}">
                             {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
@@ -398,7 +398,7 @@ Testing Cypress integration
             <li class="mobile-nav__item top-level{% if link.active %} mobile-nav__item--active{% endif %}{% if is-mega-menu %} mega-menu--mobile no-links{% endif %}">
               {% if is-mega-menu %}
                 <div class="mobile-nav__has-sublist">
-                  <button type="button" class="mobile-nav__link">{{ link.title }}</button>
+                  <a href="{{ link.url }}" class="mobile-nav__link">{{ link.title }}</a>
                   <div class="mobile-nav__toggle">
                     <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
                       {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}

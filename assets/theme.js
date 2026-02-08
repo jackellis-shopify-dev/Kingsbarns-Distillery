@@ -12092,10 +12092,10 @@ class MobileMenu {
     this.element = element;
     this.isOpen = false;
     document.documentElement.addEventListener(TOGGLE_LEFT_DRAWER_EVENT, this.handleToggle);
-    const toggleTargets = document.querySelectorAll('.mobile-nav__has-sublist');
-    toggleTargets.forEach(target => {
-      target.addEventListener('click', function (evt) {
-        evt.currentTarget.classList.toggle('mobile-nav--expanded');
+    const toggleButtons = document.querySelectorAll('.mobile-nav__toggle');
+    toggleButtons.forEach(button => {
+      button.addEventListener('click', function (evt) {
+        evt.currentTarget.parentElement.classList.toggle('mobile-nav--expanded');
       });
     });
     this.element.querySelector('.mobile-menu--close-btn').addEventListener('click', e => {
