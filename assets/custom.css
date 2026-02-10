@@ -624,17 +624,19 @@ body .color-scheme--light.product-section .shopify-payment-button__button--unbra
   font-size: var(--base-font-size) !important;
 }
 /* Only reveal third-level dropdowns when their parent sub-link is hovered/focused */
-.site-nav__subdropdown .site-nav__subdropdown {
+.site-nav__subdropdown > .site-nav--has-dropdown > .site-nav__subdropdown {
   opacity: 0 !important;
   visibility: hidden !important;
   pointer-events: none !important;
-  transition: opacity 0.2s ease, visibility 0s linear 0.2s !important;
+  transform: translateX(-12px) !important;
+  transition: all 0.5s ease !important;
 }
 
 .site-nav__subdropdown > .site-nav--has-dropdown:hover > .site-nav__subdropdown,
-.site-nav__subdropdown > .site-nav--has-dropdown:focus-within > .site-nav__subdropdown {
+.site-nav__subdropdown > .site-nav--has-dropdown:focus-within > .site-nav__subdropdown,
+.site-nav__subdropdown > .site-nav--has-dropdown.nav-hover > .site-nav__subdropdown {
   opacity: 1 !important;
   visibility: visible !important;
   pointer-events: auto !important;
-  transition: opacity 0.2s ease, visibility 0s linear 0s !important;
+  transform: translateX(0) !important;
 }
