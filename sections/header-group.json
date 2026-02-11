@@ -84,6 +84,7 @@
         "text_zJdqyK",
         "text_7DRFqw"
       ],
+      "disabled": true,
       "custom_css": [
         "* {font-size: 0.95em;}"
       ],
@@ -100,7 +101,6 @@
           "type": "content",
           "settings": {
             "mega-menu": "Whisky",
-            "mega_image_1": "shopify://shop_images/LundinLinks-31.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "KINGSBARNS 10",
             "mega_image_subheader_1": "Over a decade, the casks have added richness and complexity. The ex-Bourbon barrels have imparted soft vanilla and tropical sweetness, while the STR barriques contribute depth and subtle spice.",
