@@ -1615,5 +1615,43 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Global Menu",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_global_shop",
+        "label": "Enable Global Menu",
+        "info": "Enable/Disable 'Shop' Menu",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "global_shop_list",
+        "label": "Store List e.g. 'UK,US,EU,ROW'",
+        "default": "UK,US,EU,ROW"
+      },
+      {
+        "type": "text",
+        "id": "UK",
+        "label": "UK Store URL"
+      },
+            {
+        "type": "text",
+        "id": "EU",
+        "label": "EU Store URL"
+      },
+      {
+        "type": "text",
+        "id": "US",
+        "label": "US Store URL"
+      },
+      {
+        "type": "text",
+        "id": "ROW",
+        "label": "ROW Store URL"
+      }
+    ]
   }
 ]
