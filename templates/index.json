@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "17637632435ded8197": {
-      "type": "apps",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": true
-      }
-    },
     "174852555296a4f07f": {
       "type": "_blocks",
       "blocks": {
@@ -87,10 +79,36 @@
         "colors": "light"
       }
     },
-    "slideshow_CtHbaV": {
+    "slideshow_NeaQyy": {
       "type": "slideshow",
       "blocks": {
-        "image_ambM8F": {
+        "image_63jdLT": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Last orders for \nChristmas delivery",
+            "text": "Order by 12pm tomorrow, 18 December, to ensure delivery in time for Christmas",
+            "first_button_label": "Shop Gifting Range",
+            "first_button_link": "shopify://collections/christmas-collection-all-brands",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/SHOPIFY_DESKTOP_BF_b7979959-e077-4ec0-940b-785671a0912f.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_FeA3a7": {
           "type": "image",
           "settings": {
             "title": "",
@@ -110,7 +128,7 @@
             "mobile_image": "shopify://shop_images/VF_Square.png",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "bottom_right",
+            "mobile_text_position": "bottom",
             "image_overlay": "#242424",
             "image_overlay_opacity": 0,
             "caption-text": "#ffffff"
@@ -118,7 +136,8 @@
         }
       },
       "block_order": [
-        "image_ambM8F"
+        "image_63jdLT",
+        "image_FeA3a7"
       ],
       "name": "t:sections.image--slideshow.presets.name",
       "settings": {
@@ -126,8 +145,55 @@
         "slide_navigation_style": "bars",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "desktop_height": "full_screen",
-        "mobile_height": "extra_large"
+        "desktop_height": "original",
+        "mobile_height": "original"
+      }
+    },
+    "image_with_text_overlay_yhifEJ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_PcMULY": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "font_size_desktop": 112,
+            "font_size_mobile": 36,
+            "heading_bottom_spacing": 6
+          }
+        },
+        "text_iCR88n": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "font_size_desktop": 22,
+            "font_size_mobile": 12,
+            "text_bottom_spacing": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_PcMULY",
+        "text_iCR88n"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify://shop_images/Subtitle_3.jpg",
+        "height_desktop": "original",
+        "text_position_desktop": "bottom_center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 20,
+        "image_mobile": "shopify://shop_images/Subtitle_3.jpg",
+        "height_mobile": "original",
+        "text_position_mobile": "bottom_center",
+        "text_alignment_mobile": "center",
+        "section_link": "shopify://collections/black-friday-shop-all",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
       }
     },
     "video_hero_b3W7LY": {
@@ -263,8 +329,8 @@
           "settings": {
             "collection": "kingsbarns-core-collection",
             "collection_img": "shopify://shop_images/Untitled_design_1.jpg",
-            "subheading": "Shop",
-            "overlay-btn-text": "",
+            "subheading": "Explore",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -275,8 +341,8 @@
           "settings": {
             "collection": "wemyss-malts-collection",
             "collection_img": "shopify://shop_images/Untitled_design_2.jpg",
-            "subheading": "Shop",
-            "overlay-btn-text": "",
+            "subheading": "Explore",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -287,8 +353,8 @@
           "settings": {
             "collection": "darnleys-gin",
             "collection_img": "shopify://shop_images/Social_sized_logo.png",
-            "subheading": "Shop",
-            "overlay-btn-text": "",
+            "subheading": "Explore",
+            "overlay-btn-text": "View Collection",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -318,6 +384,23 @@
     },
     "rich_text_4eMNLt": {
       "type": "rich-text",
+      "blocks": {
+        "button_XpmQPh": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://collections/all",
+            "button_text": "Browse all products",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "button_XpmQPh"
+      ],
       "settings": {
         "section_width": "narrow",
         "text_alignment_desktop": "center",
@@ -489,9 +572,9 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "Shop Black Friday",
-        "description": "<p>Explore the top Black Friday offers from Kingsbarns, Wemyss, and Darnleys.</p>",
-        "collection": "black-friday-shop-all",
+        "title": "Our Product Range",
+        "description": "<p>Browse our portfolio of award-winning single malts, blended malts, and natural gins.</p>",
+        "collection": "frontpage",
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
@@ -500,19 +583,36 @@
         "section_padding_top": 60,
         "section_padding_bottom": 60,
         "layout_style": "grid",
-        "products_to_show": 12,
-        "grid-desktop": 4,
+        "products_to_show": 4,
+        "grid-desktop": 2,
         "grid-mobile": "2",
         "colors": "white"
       }
     },
     "rich_text_C6Wy9h": {
       "type": "rich-text",
+      "blocks": {
+        "button_jefTfE": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://pages/our-craft",
+            "button_text": "Browse All Products",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "button_jefTfE"
+      ],
       "settings": {
         "section_width": "narrow",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
-        "section_padding_top": 0,
+        "section_padding_top": 60,
         "section_padding_bottom": 60,
         "colors": "white"
       }
@@ -708,10 +808,10 @@
     }
   },
   "order": [
-    "17637632435ded8197",
     "174852555296a4f07f",
     "image_with_text_xNQTaY",
-    "slideshow_CtHbaV",
+    "slideshow_NeaQyy",
+    "image_with_text_overlay_yhifEJ",
     "video_hero_b3W7LY",
     "countdown_cFgED4",
     "rich_text_VcennU",

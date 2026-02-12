@@ -69,20 +69,11 @@
             "subheading": "Option For Next Day Delivery or Free Click & Collect To Our Distillery",
             "link": ""
           }
-        },
-        "text_7DRFqw": {
-          "type": "text",
-          "settings": {
-            "heading": "EU & USA Online Shops Available",
-            "subheading": "Currently shipping to 39 states in the USA, Germany, France, the Netherlands, Belgium, Sweden and Austria",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "text_EnJ9VU",
-        "text_zJdqyK",
-        "text_7DRFqw"
+        "text_zJdqyK"
       ],
       "custom_css": [
         "* {font-size: 0.95em;}"
@@ -188,7 +179,7 @@
         "overlay_opacity": 0,
         "show_currency_selector": false,
         "show_locale_selector": false,
-        "main_linklist": "main-menu",
+        "main_linklist": "main-menu-new",
         "dropdown_alignment": "left"
       }
     }
