@@ -153,29 +153,27 @@
     "animations_enabled": true,
     "page_fade_enabled": true,
     "ken_burns_enabled": true,
+    "global_shop_list": "ROW,UK,US,EU,",
     "UK": "https://www.kingsbarnsdistillery.com/",
     "EU": "https://wemyssfamilyspiritseu.store/",
     "US": "https://us.kingsbarnsdistillery.com/",
     "ROW": "https://www.kingsbarnsdistillery.com/en-row",
+    "sections": {
+      "customer-register": {
+        "type": "customer-register",
+        "settings": {}
+      },
+      "customer-login": {
+        "type": "customer-login",
+        "settings": {
+          "enable_shop_login_button": true
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
-      "1692329972272007824": {
-        "type": "shopify://apps/zepto-product-personalizer/blocks/product_personalizer_main/7411210d-7b32-4c09-9455-e129e3be4729",
-        "disabled": false,
-        "settings": {}
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
-      "6174324309569838175": {
-        "type": "shopify://apps/smile-io/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-        "disabled": false,
-        "settings": {}
-      },
-      "13768625480086291342": {
-        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
         "settings": {}
       },
