@@ -1,6 +1,10 @@
-{% liquid 
-  assign shop_regions = 'UK,US,EU,ROW' | split: ','
-%}
+
+
+{% if settings.enable_global_shop %}
+
+  {% liquid 
+    assign shop_regions = settings.global_shop_list | split: ','
+  %}
 
 {% if shop_regions.size > 0 %}
   <li class="site-nav--has-dropdown first-level-dropdown" aria-haspopup="true">
@@ -139,6 +143,7 @@
       {% endfor %}
     </ul>
   </li>
+{% endif %}
 {% endif %}
 
 {% liquid 

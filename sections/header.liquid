@@ -174,7 +174,8 @@ Testing Cypress integration
 
       <!-- begin mobile-nav -->
       <ul class="mobile-nav mobile-nav--main">
-        {% assign shop_regions = 'UK,US,EU,ROW' | split: ',' %}
+        {% if settings.enable_global_shop %}
+        {% assign shop_regions = settings.global_shop_list | split: ',' %}
         {% if shop_regions.size > 0 %}
           <li class="mobile-nav__item top-level" aria-haspopup="true">
             <div class="mobile-nav__has-sublist">
@@ -278,6 +279,7 @@ Testing Cypress integration
               {% endfor %}
             </ul>
           </li>
+        {% endif %}
         {% endif %}
 
         {% assign menu = linklists[section.settings.main_linklist] %}
