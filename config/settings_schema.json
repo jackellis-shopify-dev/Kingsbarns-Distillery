@@ -1651,6 +1651,13 @@
         "type": "text",
         "id": "ROW",
         "label": "ROW Store URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "invert_menu",
+        "label": "Invert Navigation",
+        "info": "Navigation stacks left instead of right, for smaller menus.",
+        "default": true
       }
     ]
   }
