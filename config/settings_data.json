@@ -153,7 +153,7 @@
     "animations_enabled": true,
     "page_fade_enabled": true,
     "ken_burns_enabled": true,
-    "global_shop_list": "ROW,UK,US,EU,",
+    "global_shop_list": "EU,UK,US,ROW",
     "UK": "https://www.kingsbarnsdistillery.com/",
     "EU": "https://wemyssfamilyspiritseu.store/",
     "US": "https://us.kingsbarnsdistillery.com/",
