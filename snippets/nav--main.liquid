@@ -1,3 +1,151 @@
+
+
+{% if settings.enable_global_shop %}
+
+  {% liquid 
+    assign shop_regions = settings.global_shop_list | split: ','
+  %}
+
+{% if shop_regions.size > 0 %}
+  <li class="site-nav--has-dropdown first-level-dropdown" aria-haspopup="true">
+    <a href="{{ routes.all_products_collection_url }}" class="site-nav__link">
+      <div class="site-nav--link-wrapper">
+        <span class="site-nav--link-text animated-underline">
+          Shop
+        </span>
+      </div>
+    </a>
+
+    {% liquid 
+      assign has_subdropdowns = false
+      for region in shop_regions
+        assign region_handle = region | downcase
+        assign region_menu = linklists[region_handle]
+        for sub_link in region_menu.links
+          if sub_link.levels > 0
+            assign has_subdropdowns = true
+          endif
+        endfor
+      endfor
+    %}
+
+    <ul 
+      class="site-nav__dropdown standard-dropdown{% if request.design_mode %} theme-editor-active{% endif %}{% if has_subdropdowns %} has--subdropdowns{% endif %}"
+      data-logo-placement="{{ logo_position }}"
+    >
+      {% for region in shop_regions %}
+        {% liquid
+          assign region_handle = region | downcase
+          assign region_menu = linklists[region_handle]
+          assign region_url = region_menu.links.first.url | default: '#'
+        %}
+
+        {% case region_handle %}
+          {% when 'uk' %}
+            {% assign region_url = settings.UK %}
+          {% when 'eu' %}
+            {% assign region_url = settings.EU %}
+          {% when 'us' %}
+            {% assign region_url = settings.US %}
+          {% when 'row' %}
+            {% assign region_url = settings.ROW %}  
+        {% endcase %}
+
+        {% if region_menu != blank and region_menu.links.size > 0 %}
+          <li class="site-nav--has-dropdown" aria-haspopup="true">
+            <a href="{{ region_url }}" class="site-nav__link">
+              <div class="site-nav--link-wrapper inline-icon--wrapper icon--right">
+                <div>
+                  <span class="site-nav--link-text animated-underline">
+                    {{ region | escape }}
+                  </span>
+                </div>
+                <span class="site-nav--link-icon">{% render 'theme-icon' with icon: 'chevron_right' %}</span>
+              </div>
+            </a>
+            <ul class="site-nav__subdropdown">
+              {% for sub_sub_link in region_menu.links %}
+                {% if sub_sub_link.levels > 0 %}
+                  <li class="site-nav--has-dropdown" aria-haspopup="true">
+                    <a href="{{ sub_sub_link.url }}" class="site-nav__link">
+                      <div class="site-nav--link-wrapper inline-icon--wrapper icon--right">
+                        <div>
+                          <span class="site-nav--link-text animated-underline">
+                            {{ sub_sub_link.title | escape }}
+                          </span>
+                        </div>
+                        <span class="site-nav--link-icon">{% render 'theme-icon' with icon: 'chevron_right' %}</span>
+                      </div>
+                    </a>
+                    <ul class="site-nav__subdropdown">
+                      {% for sub_sub_sub_link in sub_sub_link.links %}
+                        {% if sub_sub_sub_link.levels > 0 %}
+                          <li class="site-nav--has-dropdown" aria-haspopup="true">
+                            <a href="{{ sub_sub_sub_link.url }}" class="site-nav__link">
+                              <div class="site-nav--link-wrapper inline-icon--wrapper icon--right">
+                                <div>
+                                  <span class="site-nav--link-text animated-underline">
+                                    {{ sub_sub_sub_link.title | escape }}
+                                  </span>
+                                </div>
+                                <span class="site-nav--link-icon">{% render 'theme-icon' with icon: 'chevron_right' %}</span>
+                              </div>
+                            </a>
+                            <ul class="site-nav__subdropdown">
+                              {% for sub_sub_sub_sub_link in sub_sub_sub_link.links %}
+                                <li>
+                                  <a href="{{ sub_sub_sub_sub_link.url }}" class="site-nav__link">
+                                    <div class="site-nav--link-wrapper">
+                                      <div>
+                                        <span class="site-nav--link-text animated-underline">
+                                          {{ sub_sub_sub_sub_link.title | escape }}
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          </li>
+                        {% else %}
+                          <li>
+                            <a href="{{ sub_sub_sub_link.url }}" class="site-nav__link">
+                              <div class="site-nav--link-wrapper">
+                                <div>
+                                  <span class="site-nav--link-text animated-underline">
+                                    {{ sub_sub_sub_link.title | escape }}
+                                  </span>
+                                </div>
+                              </div>
+                            </a>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% else %}
+                  <li>
+                    <a href="{{ sub_sub_link.url }}" class="site-nav__link">
+                      <div class="site-nav--link-wrapper">
+                        <div>
+                          <span class="site-nav--link-text animated-underline">
+                            {{ sub_sub_link.title | escape }}
+                          </span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </li>
+{% endif %}
+{% endif %}
+
 {% liquid 
   assign menu = linklists[section.settings.main_linklist]
 %}

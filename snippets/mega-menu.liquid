@@ -51,7 +51,7 @@
         {%- comment %}</locksmith:3e4b>{% endcomment -%}
         <li class="dropdown-submenu nav-link-animated--custom" aria-haspopup="true">
           <div class="inner">
-            <p class="h4 mega-menu-link--title"><a class="animated-link--item" href="{{ sub_link.url }}">{{ sub_link.title | escape }}</a></p>
+            <p class="h4 mega-menu-link--title">{{ sub_link.title | escape }}</p>
             <ul class="menu-link">
               {% for sub_sub_link in sub_link.links %}
                 {%- comment %}<locksmith:a48d>{% endcomment -%}
