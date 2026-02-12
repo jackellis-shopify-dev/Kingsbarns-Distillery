@@ -1615,5 +1615,30 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Mega Menu",
+    "settings": [
+      {
+        "type": "text",
+        "id": "UK",
+        "label": "UK Store URL"
+      },
+            {
+        "type": "text",
+        "id": "EU",
+        "label": "EU Store URL"
+      },
+      {
+        "type": "text",
+        "id": "US",
+        "label": "US Store URL"
+      },
+      {
+        "type": "text",
+        "id": "ROW",
+        "label": "ROW Store URL"
+      }
+    ]
   }
 ]

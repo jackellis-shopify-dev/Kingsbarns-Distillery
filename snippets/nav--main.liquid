@@ -1,5 +1,5 @@
 {% liquid 
-  assign shop_regions = 'UK,US,EU' | split: ','
+  assign shop_regions = 'UK,US,EU,ROW' | split: ','
 %}
 
 {% if shop_regions.size > 0 %}
@@ -35,6 +35,18 @@
           assign region_menu = linklists[region_handle]
           assign region_url = region_menu.links.first.url | default: '#'
         %}
+
+        {% case region_handle %}
+          {% when 'uk' %}
+            {% assign region_url = settings.UK %}
+          {% when 'eu' %}
+            {% assign region_url = settings.EU %}
+          {% when 'us' %}
+            {% assign region_url = settings.US %}
+          {% when 'row' %}
+            {% assign region_url = settings.ROW %}  
+        {% endcase %}
+
         {% if region_menu != blank and region_menu.links.size > 0 %}
           <li class="site-nav--has-dropdown" aria-haspopup="true">
             <a href="{{ region_url }}" class="site-nav__link">
