@@ -174,6 +174,114 @@ Testing Cypress integration
 
       <!-- begin mobile-nav -->
       <ul class="mobile-nav mobile-nav--main">
+        {% if settings.enable_global_shop %}
+        {% assign shop_regions = settings.global_shop_list | split: ',' %}
+        {% if shop_regions.size > 0 %}
+          <li class="mobile-nav__item top-level" aria-haspopup="true">
+            <div class="mobile-nav__has-sublist">
+              <a href="{{ routes.all_products_collection_url }}" class="mobile-nav__link">Shop</a>
+              <div class="mobile-nav__toggle">
+                <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
+                  {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                </button>
+                <button type="button" class="icon-fallback-text mobile-nav__toggle-close standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'layout.drawers.close_menu' | t }}">
+                  {% render 'theme-icon', icon: 'chevron_up', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                </button>
+              </div>
+            </div>
+            <ul class="mobile-nav__sublist">
+              {% for region in shop_regions %}
+                {% liquid
+                  assign region_handle = region | downcase
+                  assign region_menu = linklists[region_handle]
+                  assign region_url = region_menu.links.first.url | default: '#'
+                %}
+
+                {% case region_handle %}
+                  {% when 'uk' %}
+                    {% assign region_url = settings.UK %}
+                  {% when 'eu' %}
+                    {% assign region_url = settings.EU %}
+                  {% when 'us' %}
+                    {% assign region_url = settings.US %}
+                  {% when 'row' %}
+                    {% assign region_url = settings.ROW %}  
+                {% endcase %}
+
+                {% if region_menu != blank and region_menu.links.size > 0 %}
+                  <li class="mobile-nav__item" aria-haspopup="true">
+                    <div class="mobile-nav__has-sublist">
+                      <a href="{{ region_url }}" class="mobile-nav__link">{{ region | escape }}</a>
+                      <div class="mobile-nav__toggle">
+                        <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
+                          {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                        </button>
+                        <button type="button" class="icon-fallback-text mobile-nav__toggle-close standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'layout.drawers.close_menu' | t }}">
+                          {% render 'theme-icon', icon: 'chevron_up', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                        </button>
+                      </div>
+                    </div>
+                    <ul class="mobile-nav__sublist">
+                      {% for sub_sub_link in region_menu.links %}
+                        {% if sub_sub_link.levels > 0 %}
+                          <li class="mobile-nav__item">
+                            <div class="mobile-nav__has-sublist">
+                              <a href="{{ sub_sub_link.url }}" class="mobile-nav__link">{{ sub_sub_link.title | escape }}</a>
+                              <div class="mobile-nav__toggle">
+                                <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
+                                  {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                                </button>
+                                <button type="button" class="icon-fallback-text mobile-nav__toggle-close standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'layout.drawers.close_menu' | t }}">
+                                  {% render 'theme-icon', icon: 'chevron_up', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                                </button>
+                              </div>
+                            </div>
+                            <ul class="mobile-nav__sublist">
+                              {% for sub_sub_sub_link in sub_sub_link.links %}
+                                {% if sub_sub_sub_link.levels > 0 %}
+                                  <li class="mobile-nav__item">
+                                    <div class="mobile-nav__has-sublist">
+                                      <a href="{{ sub_sub_sub_link.url }}" class="mobile-nav__link">{{ sub_sub_sub_link.title | escape }}</a>
+                                      <div class="mobile-nav__toggle">
+                                        <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'cart.general.see_more' | t }}">
+                                          {% render 'theme-icon', icon: 'chevron_down', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                                        </button>
+                                        <button type="button" class="icon-fallback-text mobile-nav__toggle-close standalone-icon--wrapper touch-target icon-no-padding" aria-label="{{ 'layout.drawers.close_menu' | t }}">
+                                          {% render 'theme-icon', icon: 'chevron_up', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                                        </button>
+                                      </div>
+                                    </div>
+                                    <ul class="mobile-nav__sublist">
+                                      {% for sub_sub_sub_sub_link in sub_sub_sub_link.links %}
+                                        <li class="mobile-nav__item">
+                                          <a href="{{ sub_sub_sub_sub_link.url }}" class="mobile-nav__link">{{ sub_sub_sub_sub_link.title | escape }}</a>
+                                        </li>
+                                      {% endfor %}
+                                    </ul>
+                                  </li>
+                                {% else %}
+                                  <li class="mobile-nav__item">
+                                    <a href="{{ sub_sub_sub_link.url }}" class="mobile-nav__link">{{ sub_sub_sub_link.title | escape }}</a>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          </li>
+                        {% else %}
+                          <li class="mobile-nav__item">
+                            <a href="{{ sub_sub_link.url }}" class="mobile-nav__link">{{ sub_sub_link.title | escape }}</a>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+        {% endif %}
+
         {% assign menu = linklists[section.settings.main_linklist] %}
         {% for link in menu.links %}
           {% liquid 
