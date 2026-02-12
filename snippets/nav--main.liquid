@@ -276,6 +276,14 @@
   {% endif %}
 {% endfor %}
 
+{% if settings.invert_menu == true %}
+  {% style %}
+    .site-nav li .site-nav__subdropdown {
+      left: -100% !important;
+    }
+  {% endstyle %}
+{% endif %}
+
 {% if settings.header-border-color != 'rgba(0,0,0,0)' %}
   {% style %}
     .site-nav__dropdown.mega-menu-dropdown {
